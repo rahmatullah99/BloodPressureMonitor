@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/trackerFragment">
+
+    <fragment
+        android:id="@+id/trackerFragment"
+        android:name="bloodpressuremonitor.bpmonitor.bptracker.app.Fragments.TrackerFragment"
+        android:label="TrackerFragment" >
+        <action
+            android:id="@+id/action_trackerFragment_to_settingsFragment"
+            app:destination="@id/settingsFragment" />
+        <action
+            android:id="@+id/action_trackerFragment_to_infoFragment"
+            app:destination="@id/infoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/infoFragment"
+        android:name="bloodpressuremonitor.bpmonitor.bptracker.app.Fragments.InfoFragment"
+        android:label="InfoFragment" >
+        <action
+            android:id="@+id/action_infoFragment_to_settingsFragment"
+            app:destination="@id/settingsFragment" />
+        <action
+            android:id="@+id/action_infoFragment_to_trackerFragment"
+            app:destination="@id/trackerFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="bloodpressuremonitor.bpmonitor.bptracker.app.Fragments.SettingsFragment"
+        android:label="SettingsFragment" >
+        <action
+            android:id="@+id/action_settingsFragment_to_trackerFragment"
+            app:popUpToInclusive="true"
+            app:popUpTo="@id/settingsFragment"
+            app:destination="@id/trackerFragment" />
+        <action
+            android:id="@+id/action_settingsFragment_to_infoFragment"
+            app:destination="@id/infoFragment" />
+    </fragment>
+</navigation>

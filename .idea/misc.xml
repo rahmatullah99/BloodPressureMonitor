@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/background.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/background_10.xml" value="0.1395" />
+        <entry key="app/src/main/res/drawable/background_2.xml" value="0.1065" />
+        <entry key="app/src/main/res/drawable/background_3.xml" value="0.1065" />
+        <entry key="app/src/main/res/drawable/background_4.xml" value="0.1065" />
+        <entry key="app/src/main/res/drawable/background_5.xml" value="0.1065" />
+        <entry key="app/src/main/res/drawable/background_6.xml" value="0.1065" />
+        <entry key="app/src/main/res/drawable/background_7.xml" value="0.1065" />
+        <entry key="app/src/main/res/drawable/background_8.xml" value="0.1065" />
+        <entry key="app/src/main/res/drawable/background_9.xml" value="0.1235" />
+        <entry key="app/src/main/res/drawable/bottom_nav_colors.xml" value="0.115" />
+        <entry key="app/src/main/res/drawable/button.xml" value="0.1055" />
+        <entry key="app/src/main/res/drawable/button2.xml" value="0.1055" />
+        <entry key="app/src/main/res/drawable/category_elevated.xml" value="0.116" />
+        <entry key="app/src/main/res/drawable/category_elevated_stroke.xml" value="0.116" />
+        <entry key="app/src/main/res/drawable/category_hypertension1.xml" value="0.12" />
+        <entry key="app/src/main/res/drawable/category_hypertension1_normal.xml" value="0.15" />
+        <entry key="app/src/main/res/drawable/category_hypertension1_stroke.xml" value="0.1065" />
+        <entry key="app/src/main/res/drawable/category_hypertension2.xml" value="0.116" />
+        <entry key="app/src/main/res/drawable/category_hypertension2_stroke.xml" value="0.1115" />
+        <entry key="app/src/main/res/drawable/category_hypertension_stroke.xml" value="0.116" />
+        <entry key="app/src/main/res/drawable/category_hypertensive.xml" value="0.116" />
+        <entry key="app/src/main/res/drawable/category_hypertensive_stroke.xml" value="0.12" />
+        <entry key="app/src/main/res/drawable/category_hypotension.xml" value="0.116" />
+        <entry key="app/src/main/res/drawable/category_hypotension_stroke.xml" value="0.116" />
+        <entry key="app/src/main/res/drawable/category_normal.xml" value="0.116" />
+        <entry key="app/src/main/res/drawable/category_normal_stroke.xml" value="0.116" />
+        <entry key="app/src/main/res/drawable/circle.xml" value="0.1485" />
+        <entry key="app/src/main/res/drawable/hypotension.xml" value="0.116" />
+        <entry key="app/src/main/res/drawable/round_corner.xml" value="0.1485" />
+        <entry key="app/src/main/res/drawable/rounded_corner_bg1.xml" value="0.131" />
+        <entry key="app/src/main/res/drawable/rounded_corners_bg2.xml" value="0.1285" />
+        <entry key="app/src/main/res/drawable/rounded_corners_bg3.xml" value="0.1285" />
+        <entry key="app/src/main/res/drawable/shape.xml" value="0.1245" />
+        <entry key="app/src/main/res/drawable/understand_hypotension.xml" value="0.1" />
+        <entry key="app/src/main/res/layout-v28/splash_screen.xml" value="0.14855072463768115" />
+        <entry key="app/src/main/res/layout/activity_add_edit_record.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/activity_edit_record.xml" value="0.16530797101449277" />
+        <entry key="app/src/main/res/layout/activity_faq.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/activity_feedback.xml" value="0.2" />
+        <entry key="app/src/main/res/layout/activity_knowledge.xml" value="0.18" />
+        <entry key="app/src/main/res/layout/activity_knowledge_topic.xml" value="0.17" />
+        <entry key="app/src/main/res/layout/activity_language.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_privacy_policy.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_record_history.xml" value="0.18" />
+        <entry key="app/src/main/res/layout/bp_card.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/category_card.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/content_language.xml" value="0.15775158658204896" />
+        <entry key="app/src/main/res/layout/faq_list_group.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/faq_list_item.xml" value="0.2" />
+        <entry key="app/src/main/res/layout/fragment_delete_record.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_first.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_info.xml" value="0.2" />
+        <entry key="app/src/main/res/layout/fragment_nested_tracker.xml" value="0.2" />
+        <entry key="app/src/main/res/layout/fragment_second.xml" value="0.15775158658204896" />
+        <entry key="app/src/main/res/layout/fragment_settings.xml" value="0.2" />
+        <entry key="app/src/main/res/layout/fragment_tracker.xml" value="0.12" />
+        <entry key="app/src/main/res/layout/fragment_type.xml" value="0.1631912964641886" />
+        <entry key="app/src/main/res/layout/fragment_unlock_stats.xml" value="0.21077383497221033" />
+        <entry key="app/src/main/res/layout/info_card_item.xml" value="0.16530797101449277" />
+        <entry key="app/src/main/res/layout/knowledge_card.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/knowledge_section_card.xml" value="0.2" />
+        <entry key="app/src/main/res/layout/knowledge_topic_1.xml" value="0.2" />
+        <entry key="app/src/main/res/layout/knowledge_topic_card.xml" value="0.2" />
+        <entry key="app/src/main/res/layout/language_list_item.xml" value="0.15775158658204896" />
+        <entry key="app/src/main/res/layout/record_bar_graph_item.xml" value="0.16530797101449277" />
+        <entry key="app/src/main/res/layout/record_list_item.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/splash_screen.xml" value="0.18" />
+        <entry key="app/src/main/res/menu/bottom_nav_menu.xml" value="0.2074074074074074" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1095" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1095" />
+        <entry key="app/src/main/res/xml/backup_rules.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+android:id="@+id/knowledgeCardBtn"
+android:layout_width="match_parent"
+android:layout_height="@dimen/medium4.5"
+    android:layout_marginVertical="@dimen/small3"
+    android:background="@color/black"
+app:layout_constraintEnd_toEndOf="parent"
+app:layout_constraintStart_toStartOf="parent"
+app:layout_constraintTop_toTopOf="parent">
+
+    <ImageView
+        android:id="@+id/knowledgeBackground"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background_4"
+        android:scaleType="fitXY" />
+
+    <TextView
+    android:id="@+id/knowledgeCardTopic"
+    android:layout_width="@dimen/large2"
+    android:layout_height="wrap_content"
+    android:layout_gravity="start|center"
+    android:padding="@dimen/small8"
+    android:text=""
+    android:textColor="@color/white"
+    android:textSize="@dimen/smallText5"
+    android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/knowledgeCardImage"
+        android:layout_width="@dimen/medium2"
+        android:layout_height="@dimen/medium2"
+        android:layout_gravity="center|end"
+        android:layout_marginTop="@dimen/small2"
+        android:layout_margin="@dimen/marginSmall"/>
+
+</com.google.android.material.card.MaterialCardView>

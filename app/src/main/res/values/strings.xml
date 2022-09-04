@@ -1,0 +1,928 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Blood Pressure Monitor App</string>
+    <string name="selected_language">English</string>
+    <string name="title_activity_language">Language</string>
+
+    <!-- Date and time -->
+    <!-- Months -->
+    <string name="jan">Jan</string>
+    <string name="feb">Feb</string>
+    <string name="mar">Mar</string>
+    <string name="apr">Apr</string>
+    <string name="may">May</string>
+    <string name="june">June</string>
+    <string name="july">July</string>
+    <string name="aug">Aug</string>
+    <string name="sep">Sep</string>
+    <string name="oct">Oct</string>
+    <string name="nov">Nov</string>
+    <string name="dec">Dec</string>
+
+    <!-- Days -->
+    <string-array name="days">
+        <item>Jan 1</item>
+        <item>Jan 2</item>
+        <item>Jan 3</item>
+        <item>Jan 4</item>
+        <item>Jan 5</item>
+        <item>Jan 6</item>
+        <item>Jan 7</item>
+        <item>Jan 8</item>
+        <item>Jan 9</item>
+        <item>Jan 10</item>
+        <item>Jan 11</item>
+        <item>Jan 12</item>
+        <item>Jan 13</item>
+        <item>Jan 14</item>
+        <item>Jan 15</item>
+        <item>Jan 16</item>
+        <item>Jan 17</item>
+        <item>Jan 18</item>
+        <item>Jan 19</item>
+        <item>Jan 20</item>
+        <item>Jan 21</item>
+        <item>Jan 22</item>
+        <item>Jan 23</item>
+        <item>Jan 24</item>
+        <item>Jan 25</item>
+        <item>Jan 26</item>
+        <item>Jan 27</item>
+        <item>Jan 28</item>
+        <item>Jan 29</item>
+        <item>Jan 30</item>
+        <item>Jan 31</item>
+        <item>Feb 1</item>
+        <item>Feb 2</item>
+        <item>Feb 3</item>
+        <item>Feb 4</item>
+        <item>Feb 5</item>
+        <item>Feb 6</item>
+        <item>Feb 7</item>
+        <item>Feb 8</item>
+        <item>Feb 9</item>
+        <item>Feb 10</item>
+        <item>Feb 11</item>
+        <item>Feb 12</item>
+        <item>Feb 13</item>
+        <item>Feb 14</item>
+        <item>Feb 15</item>
+        <item>Feb 16</item>
+        <item>Feb 17</item>
+        <item>Feb 18</item>
+        <item>Feb 19</item>
+        <item>Feb 20</item>
+        <item>Feb 21</item>
+        <item>Feb 22</item>
+        <item>Feb 23</item>
+        <item>Feb 24</item>
+        <item>Feb 25</item>
+        <item>Feb 26</item>
+        <item>Feb 27</item>
+        <item>Feb 28</item>
+        <item>Feb 29</item>
+        <item>Mar 1</item>
+        <item>Mar 2</item>
+        <item>Mar 3</item>
+        <item>Mar 4</item>
+        <item>Mar 5</item>
+        <item>Mar 6</item>
+        <item>Mar 7</item>
+        <item>Mar 8</item>
+        <item>Mar 9</item>
+        <item>Mar 10</item>
+        <item>Mar 11</item>
+        <item>Mar 12</item>
+        <item>Mar 13</item>
+        <item>Mar 14</item>
+        <item>Mar 15</item>
+        <item>Mar 16</item>
+        <item>Mar 17</item>
+        <item>Mar 18</item>
+        <item>Mar 19</item>
+        <item>Mar 20</item>
+        <item>Mar 21</item>
+        <item>Mar 22</item>
+        <item>Mar 23</item>
+        <item>Mar 24</item>
+        <item>Mar 25</item>
+        <item>Mar 26</item>
+        <item>Mar 27</item>
+        <item>Mar 28</item>
+        <item>Mar 29</item>
+        <item>Mar 30</item>
+        <item>Mar 31</item>
+        <item>Apr 1</item>
+        <item>Apr 2</item>
+        <item>Apr 3</item>
+        <item>Apr 4</item>
+        <item>Apr 5</item>
+        <item>Apr 6</item>
+        <item>Apr 7</item>
+        <item>Apr 8</item>
+        <item>Apr 9</item>
+        <item>Apr 10</item>
+        <item>Apr 11</item>
+        <item>Apr 12</item>
+        <item>Apr 13</item>
+        <item>Apr 14</item>
+        <item>Apr 15</item>
+        <item>Apr 16</item>
+        <item>Apr 17</item>
+        <item>Apr 18</item>
+        <item>Apr 19</item>
+        <item>Apr 20</item>
+        <item>Apr 21</item>
+        <item>Apr 22</item>
+        <item>Apr 23</item>
+        <item>Apr 24</item>
+        <item>Apr 25</item>
+        <item>Apr 26</item>
+        <item>Apr 27</item>
+        <item>Apr 28</item>
+        <item>Apr 29</item>
+        <item>Apr 30</item>
+        <item>May 1</item>
+        <item>May 2</item>
+        <item>May 3</item>
+        <item>May 4</item>
+        <item>May 5</item>
+        <item>May 6</item>
+        <item>May 7</item>
+        <item>May 8</item>
+        <item>May 9</item>
+        <item>May 10</item>
+        <item>May 11</item>
+        <item>May 12</item>
+        <item>May 13</item>
+        <item>May 14</item>
+        <item>May 15</item>
+        <item>May 16</item>
+        <item>May 17</item>
+        <item>May 18</item>
+        <item>May 19</item>
+        <item>May 20</item>
+        <item>May 21</item>
+        <item>May 22</item>
+        <item>May 23</item>
+        <item>May 24</item>
+        <item>May 25</item>
+        <item>May 26</item>
+        <item>May 27</item>
+        <item>May 28</item>
+        <item>May 29</item>
+        <item>May 30</item>
+        <item>May 31</item>
+        <item>Jun 1</item>
+        <item>Jun 2</item>
+        <item>Jun 3</item>
+        <item>Jun 4</item>
+        <item>Jun 5</item>
+        <item>Jun 6</item>
+        <item>Jun 7</item>
+        <item>Jun 8</item>
+        <item>Jun 9</item>
+        <item>Jun 10</item>
+        <item>Jun 11</item>
+        <item>Jun 12</item>
+        <item>Jun 13</item>
+        <item>Jun 14</item>
+        <item>Jun 15</item>
+        <item>Jun 16</item>
+        <item>Jun 17</item>
+        <item>Jun 18</item>
+        <item>Jun 19</item>
+        <item>Jun 20</item>
+        <item>Jun 21</item>
+        <item>Jun 22</item>
+        <item>Jun 23</item>
+        <item>Jun 24</item>
+        <item>Jun 25</item>
+        <item>Jun 26</item>
+        <item>Jun 27</item>
+        <item>Jun 28</item>
+        <item>Jun 29</item>
+        <item>Jun 30</item>
+        <item>Jul 1</item>
+        <item>Jul 2</item>
+        <item>Jul 3</item>
+        <item>Jul 4</item>
+        <item>Jul 5</item>
+        <item>Jul 6</item>
+        <item>Jul 7</item>
+        <item>Jul 8</item>
+        <item>Jul 9</item>
+        <item>Jul 10</item>
+        <item>Jul 11</item>
+        <item>Jul 12</item>
+        <item>Jul 13</item>
+        <item>Jul 14</item>
+        <item>Jul 15</item>
+        <item>Jul 16</item>
+        <item>Jul 17</item>
+        <item>Jul 18</item>
+        <item>Jul 19</item>
+        <item>Jul 20</item>
+        <item>Jul 21</item>
+        <item>Jul 22</item>
+        <item>Jul 23</item>
+        <item>Jul 24</item>
+        <item>Jul 25</item>
+        <item>Jul 26</item>
+        <item>Jul 27</item>
+        <item>Jul 28</item>
+        <item>Jul 29</item>
+        <item>Jul 30</item>
+        <item>Jul 31</item>
+        <item>Aug 1</item>
+        <item>Aug 2</item>
+        <item>Aug 3</item>
+        <item>Aug 4</item>
+        <item>Aug 5</item>
+        <item>Aug 6</item>
+        <item>Aug 7</item>
+        <item>Aug 8</item>
+        <item>Aug 9</item>
+        <item>Aug 10</item>
+        <item>Aug 11</item>
+        <item>Aug 12</item>
+        <item>Aug 13</item>
+        <item>Aug 14</item>
+        <item>Aug 15</item>
+        <item>Aug 16</item>
+        <item>Aug 17</item>
+        <item>Aug 18</item>
+        <item>Aug 19</item>
+        <item>Aug 20</item>
+        <item>Aug 21</item>
+        <item>Aug 22</item>
+        <item>Aug 23</item>
+        <item>Aug 24</item>
+        <item>Aug 25</item>
+        <item>Aug 26</item>
+        <item>Aug 27</item>
+        <item>Aug 28</item>
+        <item>Aug 29</item>
+        <item>Aug 30</item>
+        <item>Aug 31</item>
+        <item>Sep 1</item>
+        <item>Sep 2</item>
+        <item>Sep 3</item>
+        <item>Sep 4</item>
+        <item>Sep 5</item>
+        <item>Sep 6</item>
+        <item>Sep 7</item>
+        <item>Sep 8</item>
+        <item>Sep 9</item>
+        <item>Sep 10</item>
+        <item>Sep 11</item>
+        <item>Sep 12</item>
+        <item>Sep 13</item>
+        <item>Sep 14</item>
+        <item>Sep 15</item>
+        <item>Sep 16</item>
+        <item>Sep 18</item>
+        <item>Sep 19</item>
+        <item>Sep 20</item>
+        <item>Sep 21</item>
+        <item>Sep 22</item>
+        <item>Sep 23</item>
+        <item>Sep 24</item>
+        <item>Sep 25</item>
+        <item>Sep 26</item>
+        <item>Sep 27</item>
+        <item>Sep 28</item>
+        <item>Sep 29</item>
+        <item>Sep 30</item>
+        <item>Oct 1</item>
+        <item>Oct 2</item>
+        <item>Oct 3</item>
+        <item>Oct 4</item>
+        <item>Oct 5</item>
+        <item>Oct 6</item>
+        <item>Oct 7</item>
+        <item>Oct 8</item>
+        <item>Oct 9</item>
+        <item>Oct 10</item>
+        <item>Oct 11</item>
+        <item>Oct 12</item>
+        <item>Oct 13</item>
+        <item>Oct 14</item>
+        <item>Oct 15</item>
+        <item>Oct 16</item>
+        <item>Oct 17</item>
+        <item>Oct 18</item>
+        <item>Oct 19</item>
+        <item>Oct 20</item>
+        <item>Oct 21</item>
+        <item>Oct 22</item>
+        <item>Oct 23</item>
+        <item>Oct 24</item>
+        <item>Oct 25</item>
+        <item>Oct 26</item>
+        <item>Oct 27</item>
+        <item>Oct 28</item>
+        <item>Oct 29</item>
+        <item>Oct 30</item>
+        <item>Oct 31</item>
+        <item>Nov 1</item>
+        <item>Nov 2</item>
+        <item>Nov 3</item>
+        <item>Nov 4</item>
+        <item>Nov 5</item>
+        <item>Nov 6</item>
+        <item>Nov 7</item>
+        <item>Nov 8</item>
+        <item>Nov 9</item>
+        <item>Nov 10</item>
+        <item>Nov 11</item>
+        <item>Nov 12</item>
+        <item>Nov 13</item>
+        <item>Nov 14</item>
+        <item>Nov 15</item>
+        <item>Nov 16</item>
+        <item>Nov 17</item>
+        <item>Nov 18</item>
+        <item>Nov 19</item>
+        <item>Nov 20</item>
+        <item>Nov 21</item>
+        <item>Nov 22</item>
+        <item>Nov 23</item>
+        <item>Nov 24</item>
+        <item>Nov 25</item>
+        <item>Nov 26</item>
+        <item>Nov 27</item>
+        <item>Nov 28</item>
+        <item>Nov 29</item>
+        <item>Nov 30</item>
+        <item>Dec 1</item>
+        <item>Dec 2</item>
+        <item>Dec 3</item>
+        <item>Dec 4</item>
+        <item>Dec 5</item>
+        <item>Dec 6</item>
+        <item>Dec 7</item>
+        <item>Dec 8</item>
+        <item>Dec 9</item>
+        <item>Dec 10</item>
+        <item>Dec 11</item>
+        <item>Dec 12</item>
+        <item>Dec 13</item>
+        <item>Dec 14</item>
+        <item>Dec 15</item>
+        <item>Dec 16</item>
+        <item>Dec 17</item>
+        <item>Dec 18</item>
+        <item>Dec 19</item>
+        <item>Dec 20</item>
+        <item>Dec 221</item>
+        <item>Dec 21</item>
+        <item>Dec 22</item>
+        <item>Dec 23</item>
+        <item>Dec 24</item>
+        <item>Dec 25</item>
+        <item>Dec 26</item>
+        <item>Dec 27</item>
+        <item>Dec 28</item>
+        <item>Dec 29</item>
+        <item>Dec 30</item>
+        <item>Dec 31</item>
+    </string-array>
+
+    <!-- Hours -->
+    <string-array name="hours">
+        <item>00</item>
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+    </string-array>
+
+    <!-- Minutes -->
+    <string-array name="minutes">
+        <item>00</item>
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+        <item>35</item>
+        <item>36</item>
+        <item>37</item>
+        <item>38</item>
+        <item>39</item>
+        <item>40</item>
+        <item>41</item>
+        <item>42</item>
+        <item>43</item>
+        <item>44</item>
+        <item>45</item>
+        <item>46</item>
+        <item>47</item>
+        <item>48</item>
+        <item>49</item>
+        <item>50</item>
+        <item>51</item>
+        <item>52</item>
+        <item>53</item>
+        <item>54</item>
+        <item>55</item>
+        <item>56</item>
+        <item>57</item>
+        <item>58</item>
+        <item>59</item>
+    </string-array>
+
+    <!-- Categories -->
+    <string name="hypotension">Hypotension</string>
+    <string name="normal">Normal</string>
+    <string name="elevated">Elevate</string>
+    <string name="hypertension_1">Hypertension-Stage 1</string>
+    <string name="hypertension_2">Hypertension-Stage 2</string>
+    <string name="hypertensive">Hypertensive</string>
+
+
+    <!-- Categories range -->
+    <string name="hypotension_range">SYS &lt; 90 or DIA &lt; 60</string>
+    <string name="normal_range">SYS 90–119 and DIA 60–79</string>
+    <string name="elevated_range">SYS 120–129 and DIA 60–79</string>
+    <string name="hypertension1_range">SYS 130–139 and DIA 80–89</string>
+    <string name="hypertension2_range">SYS 140–180 and DIA 90–120</string>
+    <string name="hypertensive_range">SYS &gt; 180 or DIA &gt; 120</string>
+
+
+    <!-- Categories feedback -->
+    <string name="hypotension_feedback">Your blood pressure seems a bit low..If the situation continues, don\'t hesitate to consult your doctor.</string>
+    <string name="normal_feedback">Rest assured! Your blood pressure is in great condition, try to keep it!</string>
+    <string name="elevated_feedback">Your blood pressure is slightly above normal. We suggest you adopt a healthier lifestyle and measure your blood pressure regularly.</string>
+    <string name="hypertension1_feedback">If you have got 3 or more readings in this area, it\'s time to ask your doctor for prescriptions regarding lifestyle improvements.</string>
+    <string name="hypertension2_feedback">If you have got 3 or more readings in this area, take care or your body through medical treatment and lifestyle changes.</string>
+    <string name="hypertensive_feedback">We\'re worried about you..Please call for emergency medical services immediately!</string>
+
+
+    <!-- FAQ Questions -->
+    <string name="question_1">What is the normal blood pressure (BP) range?</string>
+    <string name="question_2">What is hypotension?</string>
+    <string name="question_3">What are high and low blood pressure symptoms?</string>
+    <string name="question_4">What is considered high blood pressure?</string>
+    <string name="question_5">What are the risks of having high blood pressure?</string>
+    <string name="question_6">What can I do to lower my blood pressure?</string>
+    <string name="question_7">Which arm is used to take blood pressure readings?</string>
+    <string name="question_8">When is the best time to take my blood pressure medication?</string>
+    <string name="question_9">How do I take my own blood pressure?</string>
+    <string name="question_10">Can alcohol increase blood pressure?</string>
+    <string name="question_11">What is the best exercise to lower blood pressure?</string>
+    <string name="question_12">When is high blood pressure an emergency?</string>
+    <string name="question_13">Does high blood pressure cause headaches?</string>
+    <string name="question_14">Is high blood pressure curable?</string>
+    <string name="question_15">Which blood pressure number is more important?</string>
+    <string name="question_16">Does smoking cause high blood pressure?</string>
+    <string name="question_17">How long does it take blood pressure medicine to work?</string>
+    <string name="question_18">How does high blood pressure make you feel?</string>
+    <string name="question_19">Can anxiety cause high blood pressure?</string>
+    <string name="question_20">Does marijuana lower blood pressure?</string>
+
+
+    <!-- FAQ Answers -->
+    <string name="answer_1">Your blood pressure can change every minute. It can go up or down depending on your body position, breathing rhythm, stress level, activity level, and even the time of day. A normal blood pressure level is less than 120/80 mmHg (less than 120 systolic AND less than 80 diastolic). This can vary slightly depending on your age.</string>
+    <string name="answer_2">Hypotension is a condition where the blood pressure is lower than normal, in this case; less than 90/60 mm Hg.</string>
+    <string name="answer_3">A few symptoms of high blood pressure:\n-Dizziness\n-Shortness of breath\n-Headaches\n-Blurred vision\n-Nosebleeds(epistaxis)\n-Rapid or irregular heartbeat (palpitations)\n-Nausea\n-Vomiting\nA few symptoms of low blood pressure:\n-Light-headedness\n-Dizziness\n-Fainting (syncope)\n-Confusion\n-Blurring of vision\n-Nausea\n-Fatigue</string>
+    <string name="answer_4">High blood pressure is defined as a blood pressure reading that is greater than 140/90 mmHg. A blood pressure reading of 130/80 mmHg is considered high, while a reading of 120/70 mmHg is considered moderate. Elevated blood pressure can lead to heart disease, stroke, and other serious health problems.</string>
+    <string name="answer_5">There are a number of risks associated with having high blood pressure, including heart disease, stroke, and kidney disease. High blood pressure can also lead to vision problems, hearing loss, and difficulty breathing. If left untreated, high blood pressure can also lead to a heart attack or stroke. There are many risks associated with high blood pressure, including heart disease, stroke, and kidney failure. If left untreated, high blood pressure can lead to a heart attack or stroke.</string>
+    <string name="answer_6">There are many things you can do to lower your blood pressure. Some of the most common include eating a healthy diet, getting regular exercise, and avoiding smoking. You can also take medications to lower your blood pressure.</string>
+    <string name="answer_7">Most people take blood pressure readings with the left arm. However, people with certain medical conditions or who have had a stroke may need to take blood pressure readings with the right arm.</string>
+    <string name="answer_8">There is no one definitive answer to this question. Some people prefer to take their blood pressure medication Drugs for High Blood Pressure at bedtime, while others feel that it is more effective to take the medication in the morning. Ultimately, it is up to the individual to decide when they feel the best taking their blood pressure medication.</string>
+    <string name="answer_9">There are a few ways to take your own blood pressure. One way is to use a sphygmomanometer, which is a simple, inexpensive device that you can buy at most pharmacies. You can also use an automated blood pressure monitor, which is a more accurate way to measure your blood pressure, but it is more expensive. You can also ask your doctor to measure your blood pressure.</string>
+    <string name="answer_10">Yes, alcohol can increase blood pressure. Drinking alcohol can increase your heart rate and cause your blood pressure to rise. Alcohol can also cause your blood vessels to constrict, which can lead to high blood pressure.</string>
+    <string name="answer_11">There is no one-size-fits-all answer to this question, as the best exercise to lower blood pressure will vary depending on your individual health and fitness level. However, some general recommendations for reducing blood pressure include:\n\n—Walking or jogging: These activities are relatively low-impact and can help to improve your overall fitness level.\n-Strength training: It can help to improve your overall strength and cardiovascular health, which can in turn help to lower your blood pressure.\n-Yoga: It is a form of exercise that is often recommended for people who are looking for a more gentle form of exercise.</string>
+    <string name="answer_12">High blood pressure is a serious medical condition that can lead to heart disease, stroke, and even death. If you experience any of the following signs and symptoms, it is important to see a doctor: chest pain, shortness of breath, rapid heartbeat, sweating, nausea, or vomiting. If high blood pressure is not treated, it can lead to heart attack, stroke, and even death. High blood pressure is considered an emergency if it causes any of the following: chest pain that does not go away, difficulty breathing, fainting, or blacking out.</string>
+    <string name="answer_13">There is some evidence that high blood pressure may cause headaches. Some people with high blood pressure may experience more frequent and severe headaches than people with lower blood pressure. High blood pressure may also increase the risk of other conditions that can cause headaches, such as stroke, heart disease, and dementia.</string>
+    <string name="answer_14">There is currently no cure for high blood pressure, but there are many ways to lower it. Treatment usually includes lifestyle changes (like losing weight), medication (like angiotensin converting enzyme inhibitors or angiotensin receptor blockers), and surgery (like a heart valve replacement). Some people can lower their blood pressure with diet and exercise alone. If you have high blood pressure, your doctor will want to do a blood test to see if you have the condition and if you need treatment.</string>
+    <string name="answer_15">The most important blood pressure number is the systolic pressure, which is the top number in a blood pressure reading. The reason for this is that a higher systolic pressure indicates greater heart muscle activity and indicates a greater risk for heart problems.</string>
+    <string name="answer_16">Smoking has been linked with an increased risk of high blood pressure. In fact, smoking is one of the most significant risk factors for developing high blood pressure. Smoking causes the body to produce more inflammation, which can lead to an increase in blood pressure. Additionally, smoking can increase the risk of heart disease, stroke, and other cardiovascular problems. If you are concerned about your blood pressure, it is important to quit smoking and to make lifestyle changes that may help to lower your blood pressure.</string>
+    <string name="answer_17">Blood pressure medicine works in two ways: by reducing the amount of blood that flows through your veins and by reducing the amount of blood that your heart has to pump. It can take up to several weeks for blood pressure medicine to work its full effect.</string>
+    <string name="answer_18">High blood pressure can make you feel like you\'re having a heart attack, and it can also lead to other health problems. High blood pressure can cause you to have a harder time breathing, and it can also lead to stroke, heart failure, and kidney failure. If you have high blood pressure, you should see a doctor as soon as possible to get it under control.</string>
+    <string name="answer_19">There is some evidence that anxiety may be a contributing factor to high blood pressure, as anxiety can increase heart rate and cortisol levels, both of which can increase blood pressure. Additionally, people with high blood pressure are more likely to have anxiety disorders.</string>
+    <string name="answer_20">There is limited research on the effects of marijuana on blood pressure. Some studies have found that people who use marijuana have lower blood pressure than people who do not use marijuana. However, other studies have not found a link between marijuana use and lower blood pressure. More research is needed to determine the effects of marijuana on blood pressure.</string>
+
+
+    <!-- Knowledge topics -->
+    <string name="app_email_id">yourfeedbackreceiveemailid</string>
+    <string name="sharebody">Check out this awesome app to monitor your Blood Pressure.</string>
+
+
+    <!---Topic 1- Know BP Numbers-->
+    <string name="topic_1">Know BP Numbers &amp; Normal Range</string>
+
+    <string name="paragraph_1">What range can be determined as hypertension? If one of your readings reaches the standard for high blood pressure, but the other one does not, how to detrmine that? To define your blood pressure numbers, you can see the blood pressure category below.</string>
+
+    <string name="main_2">1.Hypotension</string>
+    <string name="paragraph_2">If your readings are less than 90/60 mmHg, you are probably hypotensive. You do not need any treatment as low blood pressure causes no harm and no symptoms usually. However, when your blood pressure often drops suddenly over 20 mmHg, falls suddenly due to some medications, or you feel dizzy, fainting, fatigue,etc., you ought to seek treatment.</string>
+
+    <string name="main_3">2.Normal Range</string>
+    <string name="paragraph_3">if your readings are higher than 90/60 mmHg and less than 120/80 mmHg, your blood pressure is normal. You need to maintain or adopt a healthy lifestyle to prevent hypertension from developing.\n\nBesides, if you have any family members who have hypertension, it is recommended to be even more mindful of your lifestyle as your risk of developing hypertension can be high.</string>
+
+    <string name="main_4">3.Elevated</string>
+    <string name="paragraph_4">When your blood pressure is higher than the normal one but doesn\'t reach 130/80 mmHg, your BP is considered elevated. If your lifestyle and eating habits are not improved, you are very likely to develop high blood pressure.</string>
+
+    <string name="main_5">4.Hypertension Stage 1</string>
+    <string name="paragraph_5">Consistent systolic pressure readings between 130 to 139 mmHg or diastolic pressure readings between 80 to 89 mmHg means you are at hypertension stage 1.\n\nGenerally speaking, you only need to improve your lifestyle  to control blood pressure. However, if you have a high risk of cardiovascular disease(heart disease, stroke, etc.), you need to start taking medicine accordingly.</string>
+
+    <string name="main_6">5.Hypertension Stage 2</string>
+    <string name="paragraph_6">Hypertension stage 2 is when you have consistent  systolic pressure readings between 140 to 180 mmHg or diastolic pressure readings between 90 to 120 mmHg.\n\nAt this stage, you should combine lifestyle changes and one or more medications. After the first month of treatment and lifestyle improvement, if your blood pressure is under control, you can go to the hospital for another measurement in 3 to 6 months. If the blood pressure is higher or does not change, you need to consult a doctor to change to other treatments.</string>
+
+    <string name="main_7">6.Hypertension Crisis</string>
+    <string name="paragraph_7">If you are measuring your blood pressure at home and see your systolic reading over 180 mmHg or diastolic number above 120 mmHg, you need to calm down at first then wait a few minutes to retest it. If you are still in the range of the hypertension crisis, don\'t hesitate to call the emergency service or go to the hospital right now.</string>
+
+
+    <!---Topic 2- Learn about Blood Pressure-->
+    <string name="topic_2">Learn about Blood Pressure</string>
+
+    <string name="paragraph_8">Whether you measure your blood pressure at home or in the hospital, you must be puzzled what does blood pressure mean or by the two columns of numbers on the device screen. Don\'t worry, after reading this article. all will be answered.</string>
+
+    <string name="main_9">What is blood pressure?</string>
+    <string name="paragraph_9">The heart is like a water pump, conntinuously pumping blood to the blood vessels throughout the body. When blood runs, it pushes against the walls of blood vessels. The strength of pusing is namely blood pressure.</string>
+
+    <string name="main_10">What are two numbers on the BP device</string>
+    <string name="paragraph_10">Two readings on your blood pressure monitor represent systolic blood pressure and diastolic blood pressure. The top or the first number is systolic BP, meaning the amount of pressure in the arteries when your heart pushes blood through arteries. The bottom or second number is the diastolic one, referring to the pressure in arteries when your heart is between beats.</string>
+
+
+    <!---Topic 3- Find your blood pressure type-->
+    <string name="topic_3">Find your blood pressure type</string>
+
+    <string name="main_11">Hypertension</string>
+    <string name="paragraph_11">The human cardiovascular system seems like a water circulatory system, in which blood circulates constantly like water and transports oxygen and nutrition to organs and blood vessels.\n\nBlood flow becomes difficult when blood vessels lose their elasticity. At that time, your body tries to increase the strength of pushing to make blood flows, which causes hypertension.</string>
+
+    <string name="main_12">Hypotension</string>
+    <string name="paragraph_12">If your blood pressure consistently lowers 90/60 mmHg or falls suddenly over 20 mmHg, you should keep an eye on your blood pressure. Hypotension with no symptons usually doesn\'t need treatment. Nevertheless, accurate diagnosis and categorized therapies are needed if symptoms or sudden fall emerges.</string>
+
+
+    <!---Topic 4- Break blood pressure misbeliefs-->
+    <string name="topic_4">Break Blood Pressure Misbeliefs</string>
+
+    <string name="paragraph_13">You may hear all kinds of myths about blood pressure. Believing in these myths can really make your blood pressure control vain or even make your situation worse. Below are 7 common misunderstands concerning blood pressure. Check out the following and stop believing them.</string>
+
+    <string name="main_14">1. No worries if I have the low blood pressure</string>
+    <string name="paragraph_14">Generally speaking, if you have hypotension, some small lifestyle changes can solve the problem. However, if you experience a sudden fall of over 20 mmHg or feel fainting, fatigue, blurred vision, etc., you are in need of professional treatment. If not treated immediately, the hypotension can be life-threatening.</string>
+
+    <string name="main_15">2. I don\'t have hypertension if no symptoms emerge</string>
+    <string name="paragraph_15">Do you know that hypertension is called the silent killer? It often run silent and may have no symptoms, or the symptoms may be mild, which will not be taken seriously while it is causing great damage to your health.\n\nWhen the symptoms appear, it indicates that the heart, brain, kidney, blood vessel or other organs have been severely damaged and cannot maintain normal functions. At that time, the optimal treatment opportunity has been missed. Meanwhile, complications are developed and life is under threat.</string>
+
+    <string name="main_16">3. High blood pressure can be cured</string>
+    <string name="paragraph_16">Only secondary hypertension can be cured as it has a clear cause. When the secondary condition is cured, secondary hypertension will not last anymore.\n\nPrimary hypertension cannot be healed yet, but it is possible to prevent or decrease its harm to the body by controlling blood pressure to normal through medications or improving lifestyle. The claim that high blood pressure can be cured by simple methods and never relapse is deceptive.</string>
+
+    <string name="main_17">4. Drinking red wine benefits blood pressure control</string>
+    <string name="paragraph_17">Myth has it that resveratrol inside the red wine can maintain cardiac health. However, no study can prove that statement. If the resveratrol really could protect your cardiac health, you need to drink an excessive amount of red wine to achieve the effect, which could harm your body badly. Besides, alcohol has proven to be of no benefit to the cardiovascular system.</string>
+
+    <string name="main_18">5. I can stop taking medicines if my blood pressure is under control</string>
+    <string name="paragraph_18">This is totally wrong and can be misleading. Primary hypertension can never be cured and most patients need to take medication all their lives. Your blood pressure under control is thr result of drug control, not that high blood pressure has been cured. Once the drug is stopped, blood pressure is likely to rebound. Moreover, quit taking certain drugs will cause serious withdrawal reactions.\n\nSo even if your blood pressure has been stable for a long time, your medication should not be changes or stopped without proper guidance. Consult the doctor before making any changes to the medication. You should reduce the amount of medication under your doctor\'s guidance, monitor blood pressure regularly, and maintain a healthy lifestyle.</string>
+
+    <string name="main_19">6. Young people will not get hypertension</string>
+    <string name="paragraph_19">Although patients with hypertension are common among middle-aged and elderly people, young people can also suffer from it. The level of blood pressure is affected by age, body size, level of sexual development, lifestyle, etc.</string>
+
+    <string name="main_20">7. Only men can develop hypertension</string>
+    <string name="paragraph_20">the risk difference between men and women actually depends on age. Before the age of 45, men are at greater risk of hypertension than women. Between the ages of 45 and 64, they have almost the same risk. It is worth noting that after 64 years old, women\'s risk of getting high blood pressure is higher than men\'s.</string>
+
+
+    <!---Topic 5- Hypertension Types You Must know-->
+    <string name="topic_5">Hypertension Types You Must Know</string>
+
+    <string name="paragraph_21">Do you know there are two main types of high blood pressure? One is primary and another one is secondary high blood pressure. They have different causes and let\'s read on to know more about them.</string>
+
+    <string name="main_22">Primary Hypertension</string>
+    <string name="paragraph_22">The most common hypertension is the primary type. It means a consistently high blood pressure not related to another medical condition. Despite years of research on hypertension, a specific cause isn\'t known. Unhealthy diets, physical inactivity, consumption of tobacco and alcohol, being overnight or obese,etc. could elevate your blood pressure.\n\nPatients\' blood pressure will rise as age increases. The curing method has nor been found until now. Therefore, most patients need to take medication to control blood pressure all life long.</string>
+
+    <string name="main_23">Secondary Hypertension</string>
+    <string name="paragraph_23">Only about 5 to 10 percent of hypertension is the secondary type. Besides, it is proved that younger people are likely to have secondary hypertension.\n\nSecondary hypertension is caused by certain medications such as birth control pills, etc., or various conditions like obstructive sleep apnea, kidney disease, adrenal gland tumors, thyroid problems, blood vessels defects, etc. When patients stop taking the medicine or cure the secondary condition, secondary hypertension will get better.</string>
+
+
+    <!---Topic 6- Notice symptoms-->
+    <string name="topic_6">Notice Symptoms Of Hypertension</string>
+
+    <string name="main_24">1. Headache</string>
+    <string name="paragraph_24">Headache led by high blood pressure usually indicates an emergency. When the blood pressure is too high, it can damage the blood vessels of your brain, leading to an increase in intracranial pressure. You will have pulsating headaches on both sides of your head and any activity will make the headache worse.</string>
+
+    <string name="main_25">2. Dizziness</string>
+    <string name="paragraph_25">Although dizziness may be a side effect of taking antihypertensive medication, you should not take it for granted. Severe high blood pressure is a major cause of stroke. Sudden dizziness, loss of balance or unsteady walking can all be a sign of stroke.</string>
+
+    <string name="main_26">3. Nausea</string>
+    <string name="paragraph_26">If you are a person with hypertension and experience sudden nausea and loss of appetite, you may come across a hypertensive crisis. Nausea caused by extremely high blood pressure usually happens together with dizziness.</string>
+
+    <string name="main_27">4. Shortness of breath</string>
+    <string name="paragraph_27">High blood pressure will affect heart and lung function, leading to shortness of breath. When patients exercise, that could be more noticeable.</string>
+
+    <string name="main_28">5. Chest pain</string>
+    <string name="paragraph_28">Hypertension is a leading risk factor for heart attack and heart failure. High blood pressure hardens arteries, bringing difficult blood flow and oxygen delivery. It means less blood reaching the heart and eventually invoking chest pain, also called angina.</string>
+
+    <string name="main_29">6. Blurred vision</string>
+    <string name="paragraph_29">There are many small vessels on your eyeballs. When your blood pressure rises to a dangerous level, these vessels can be damaged to bleed, which causes blurred vision or even loss of vision.</string>
+
+    <string name="main_89">7. Nosebleed</string>
+    <string name="paragraph_89">Hypertension usually doesn\'t cause nosebleed unless your blood pressure is extremely high. The bleeding means vessels inside your nose are damaged. At this point, you need to call an ambulance or go to the hospital immediately.</string>
+
+    <!---Topic 7- Know problems hypertension brings-->
+    <string name="topic_7">Know Problems Hypertension Brings</string>
+
+    <string name="paragraph_30">High blood pressure is a big threat to your health. It can steadily damage your heart, brain, kidney and eyes with no symptoms. If you want to know hypertension\'s effects on your body, read below to get a clear view.</string>
+
+    <string name="main_31">1. Hypertension leads to heart diseases</string>
+    <string name="paragraph_31">High blood pressure can cause coronary heart disease, heart failure, etc. Some studies illustrate that about a quater of heart failure cases are caused by high blood pressure.\nHypertension will make arteries less flexible and cause fatty substances to block blood vessels, which indicates smooth blood flow to the heart becomes impossible. At that time, the heart needs to make the left ventricle work harder and pump blood to various organs.\n\nEventually, the extra workload will cause the left ventricle to expand, which greatly increases the risk of developing heart diseases. On the other hand, the heart becomes weak and is not able to pump blood, leading to heart failure.</string>
+
+    <string name="main_32">2. Hypertension can be damage your brain</string>
+    <string name="paragraph_32">High blood pressure can cause transient ischemic atatck, strok, dementia, mild cognitive impairment, and other brain diseases.\n\nRaises blood pressure will block arteries and limit blood reaching the brain. The brain could not function when it is short of blood supply, leading to transient ischemic attack(TIA).\n\nExcessive blood pressure leads to brain blood vessels losing their flexibility. This phenomenon makes it impossible for nutrients and oxygen to be transported to the brain, which causes brain cells to die and stroke occurs. the higher your blood pressure is, the greater your chance of developing a stroke. Studies have shown that high blood pressure can boost the risk of stroke in men by 220%.\n\nExcept for TIA and strokr, high blood pressure can also result in vascular sclerosis of your cognitive area. That means patients can be affected with cognitive impairment and gradually may develop into dementia.</string>
+
+    <string name="main_33">3. Hypertension will cause kidney problems</string>
+    <string name="paragraph_33">Kidney and blood pressure are closely linked. The blood carries metabolic waste through the kidneys. A healthy kidney filters about half a cup of blood every minute, dicharging excess water and metabolic waste as urine.\n\nTherefore, when the blood pressure is high, the walls of blood vessels will thicken to resist the excessive pressure.</string>
+
+    <string name="main_34">4. Hypertension affects eyesight</string>
+    <string name="paragraph_34">Extreme high blood pressure will cause swelling of the retina. Patients will experience blurred vision or even loss of eyesight.\n\nThe retina is at the back of the eye and functions image focusing. When the blood pressure is too high, the blood vessel walls of the retina will thicken and make the blood pressure can damage retinal blood vessels, limit retinal function, and put pressure on the optic nerve, causing vision problems.</string>
+
+
+    <!---Topic 8- Understand hypotension-->
+    <string name="topic_8">Understand Hypotension:Symptoms &amp; Types</string>
+
+    <string name="main_35">Understanding Hypotension Symptoms</string>
+    <string name="paragraph_35">Hypotension symptoms include:\n-Blurred vision\n-Dizziness or fainting\n-Inability to concentrate\n-Nausea\n-Rapid breathing\n-Fatigue</string>
+
+    <string name="main_36">Understanding Hypotension Types</string>
+    <string name="paragraph_36">If you keep getting these symptoms and wonder the reason, you can get your blood pressure measured and check below to see whether you belong to these types of hypotension.</string>
+
+    <string name="sub_37">1. Orthostatic hypotension</string>
+    <string name="paragraph_37">Hypotension caused by rising from a lying down or sitting position to standing is called orthostatic hypotension. It is common as nearly one-fifth of elderly over 65 years old will have it. Besides, beta-blockers, ACE inhibitors, anti-depressants and drugs used to treat parkinson\'s disease can also lead to orthostatic hypotension.</string>
+
+    <string name="sub_38">2. Postprandial hypotension</string>
+    <string name="paragraph_38">Postprandial hypotension is often considered a geriatric condition, as it usually appears when older adults finish their eating, and almost no young people will have it.\n\nWhen blood flows to the intestines after a meal, the heart beats faster, while the blood vessels in other parts of the body would constrict to maintain blood pressure. However, some elderly people\'s bodies cannot function normally. When blood flows to the intestines, the heart rate cannot be increased sufficiently, and the vasoconstriction is not enough to maintain blood pressure, which caused a drop a blood pressure.</string>
+
+    <string name="sub_39">3. Neurally mediated hypotension</string>
+    <string name="paragraph_39">This type of low blood pressure occurs when the heart and the brain lack communication. People standing for a long time or being very emotional can have neurally mediated hypotension. At that tme, the heart needs to pump blood faster to transport blood to the brain. However, the brain delivers the message that the heart rate should be lowered, which brings blood vessels dilatation of lower body and arms, thereby contributing to not enough blood getting to the brain.</string>
+
+    <string name="main_40">Other causes of consistent hypotension</string>
+    <string name="paragraph_40">-Pregnancy, hormonal changes affect the blood vessels and circulatory system so that blood pressure may be lower during the first 24 weeks of pregnancy\n-Arrhythmia (abnormal heartbeat)\n-Heart disease\n-Certain over-the-counter drugs used in combination with hypertension drugs\n-Endocrine disorders such as diabetes, adrenal insufficiency and thyroid disease</string>
+
+    <string name="main_41">Reasons for sudden fall of blood pressure</string>
+    <string name="paragraph_41">-Loss of blood from bleeding\n-Low body temperature\n-High body temperature\n-Heart muscle disease causing heart failure\n-Sepsis, a severe blood infection\n-Severe dehydration from vomiting, diarrhea, or fever\n-A reaction to medication or alcohol\n-A severe allergic reaction</string>
+
+    <!---Topic 9- First-line Drugs For Hypertension-->
+    <string name="topic_9">First-line Drugs For Hypertension</string>
+
+    <string name="paragraph_42">If you are diagnosed with high blood pressure and need medical treatment, you might wonder what treatment option is useful and suitable to take care of your body. Here we present four medications that your doctor considers first for you. You can check what you are taking to understand the therapy better and to control annoying hypertension better.</string>
+
+    <string name="main_43">1. Angiotensin-converting enzyme (ACE)</string>
+    <string name="paragraph_43">This kind of medication plays an important role in relaxing blood vessels and blocking some hormone\'s actions in order to control blood pressure. Meanwhile, what needs to be mentioned is that it would make blood supply to kidneys less efficient.</string>
+
+    <string name="sub_44">Who should not take ACE?</string>
+    <string name="paragraph_44">-Pregnant women\n-People with kidney diseases\n-People with a severe allergic reaction</string>
+
+    <string name="main_45">2. Diuretics</string>
+    <string name="paragraph_45">Another common type of hypertension medication is diuretic, which facilitates urination to discharge excess sodium (salt) and water to control blood pressure. It is often applied with other medications in treating high blood pressure.</string>
+
+    <string name="sub_46">Who should not take diuretics?</string>
+    <string name="paragraph_46">-Older people\n-Pregnant and breastfeeding women\n-Kids</string>
+
+    <string name="main_47">3. Angiotensin II receptor blockers (ARBs)</string>
+    <string name="paragraph_47">To illustrate how ARB works to lower your blood pressure, we have to mention angiotensin. It can narrow blood vessels when binding in a receptor place. The ARBs prevent its binding on blood vessels, hence, making vessels staying open and reducing blood pressure.</string>
+
+    <string name="sub_48">Who should not take ARBs?</string>
+    <string name="paragraph_48">-People with certain kidney problems\n-People with low levels of sodium in the blood\n-Pregnant and breastfeeding women and people with severe allergy</string>
+
+    <string name="main_49">4. Calcium channel blockers</string>
+    <string name="paragraph_49">You may wonder how blood pressure control can be related to calcium. However, calcium can flow into muscle cells of the heart and arteries, making muscles contracting stronger and harder. Calcium channel blockers work by blocking calcium into your blood vessels, which relaxes muscle contractions to lower your blood pressure.</string>
+
+    <string name="sub_50">Who should not take calcium channel blockers?</string>
+    <string name="paragraph_50">-People with heart problems\n-Pregnant and breastfeeding women and people with severe allergy</string>
+
+
+    <!---Topic 10- Control BP With A Healthy Lifestyle-->
+    <string name="topic_10">Control BP With A Healthy Lifestyle</string>
+
+    <string name="paragraph_51">Fighting against the \'silent killer\' is a lifelong commitment. Don\'t just rely on the medications and do make some changes to save your heart. By following the heart-healthy lifestyle in this article, you may see your numbers back to where they should be. Let\'s take a step now to reduce your blood pressure and improve daily life.</string>
+
+    <string name="main_52">1. Keep a healthy weight</string>
+    <string name="paragraph_52">Weight and blood pressure are closely connected with each other. As the weight gains, the blood pressure rises accordingly. Losing excessive weight can expand blood vessels to make th heart pump blood better. Research has proved that losing weight can reduce systolic number by 4.5 to 8.5 mmHg and diastolic number by 3.2 to 6.5 mmHg.\n\nIt does not mean that you are required to make great efforts in losing lots of weight since only losing 5% of your body weight shall make a difference in blood pressure-lowering.\n\nMeanwhile, you need to attach great importance to watching your waistline. Too much bulk around your midsection can affect your blood pressure. It is suggested that men keep waist measurement to less than 40 inches and women be no more than 35 inches.</string>
+
+    <string name="main_53">2. Eat a DASH diet</string>
+    <string name="paragraph_53">The Dietary Approaches to Stop Hypertension (DASH) diet is created to prevent and treat high blood pressure and improve cholesterol. Besides, it also aids weight loss, cancel risk reduction, etc. The regular DASH diet program encourages n more than 1 teaspoon (2,300 mg) of sodium per day. By reducing sodium taken in as well as increasing intake in potassium, magnesium and calcium, the DASH diet can lower your systolic blood pressure by as much as 11mmHg.\n\nWhen you buy any food, learn to read labels to check the proportion of sodium. If it contains more than 20% of sodium, stop buying it.\n\nGenerally speaking, following a DASH diet includes:\n-Eating fruits, vegetables, whole grains, and lean meats\n-Taking low-fat dairy products\n-Limiting foods with saturated and trans fats, such as processed foods\n-Cut back sugary foods and drinks</string>
+
+    <string name="main_54">3. Exercise regularly</string>
+    <string name="paragraph_54">When you exercise regularly, your heart rates and breathing will increase to make your heart pump stronger, thereby reducing your blood pressure.\n\nIf you have hypertension, try aerobic workouts, strength training and flexibility exercises with moderate intensity. 150 minutes per week can significantly improve your blood pressure as useful as some medications. You can choose jogging, walking, swimming, dumbbell workouts, yoga, or any exercises you like to make your routine full of fun and healthy.\n\nIt\'s important to be consistent because if you stop exercising, your blood pressure can rise again.</string>
+
+    <string name="main_55">4. Manage stress</string>
+    <string name="paragraph_55">Your heart rate increases and blood vessels constrict when you are in a stressful state over time. Meanwhile, when you are under stress, you are more likely to engage in habits like drinking alcohol or taking processed food which can increase your BP number.\n\nHere are some tips to manage your stress:\n-Look into what you can solve. If a task annoys you, it is essential to make a plan and deal with it as soon as possible.\n-Ease yourself. It\'s time to show yourself some love and do things you enjoy.\n-Pay attention to staying away from negative habits like drinking alcohol or smoking.</string>
+
+    <string name="main_56">5. Quit smoking</string>
+    <string name="paragraph_56">Every puff of cigarette smoke leads to an immediate blood pressure increase and a strong response of your heart. If you keep smoking, the nicotine will damage your vessel walls and accelerate fatty materials blocking arteries to cause hypertension.The nicotine can also affect medications effects negatively. Moreover, exposure to secondhand smoke will also cause the same effect.\n\nFor your family members and your heart health, it is high time to quit smoking.</string>
+
+
+    <!---Topic 11- Lower Blood Pressure by Exercises-->
+    <string name="topic_11">Lower Blood Pressure by Exercises</string>
+
+    <string name="paragraph_57">Are you seeking drug-free ways to primary prevention, treatment, and control of hypertension? Then you\'ve come to the right place. This article will introduce physical exercises to help reduce blood pressure. Add them into your daily routine, you can view what a big difference you are going to make.</string>
+
+    <string name="main_58">1. Aerobic exercise</string>
+    <string name="paragraph_58">Aerobic activity can be an effective way to control high blood pressure. It has been proved that regular aerobic activity can contribute to a noticeable increase in heart rate and breathing, thereby reducing blood vessel stiffness so that blood can flow more easily. On average, regular aerobic exercise lowers resting systolic Blood Pressure 5 to 8 mmHg.\n\nPlease do keep in mind that you can lose gains if stopping the exercise.Moderate-intensity exercise for 5 to 7 days per week is needed. Meanwhile, patients with hypertension are required to conduct a minimum of 30 min or up to 60 min aerobic workout each day. If you take a 30-minute workout as challenging for you, you can split it into 10-minute bouts.</string>
+
+    <string name="sub_59">Examples of aerobic activities using large muscle groups</string>
+    <string name="paragraph_59">-Climbing stairs\n-Walking\n-Jogging\n-Bicycling\n-Swimming\n-Dancing</string>
+
+    <string name="main_60">2. Resistance training</string>
+    <string name="paragraph_60">Except for aerobic exercises, you can also add resistance training as a supplement to widen blood vessels, in other words, improve blood pressure directly and with no harm. Doing it usually needs weights or equipment such as resistance-training machines. It is recommended tpo do it twice or three times a week with moderate intensity. Besides. do not practice the same muscle part or do resistance exercises continuously. Altering the body part helps lower your blood pressure.</string>
+
+    <string name="sub_61">Precautions</string>
+    <string name="paragraph_61">-Seek professional guidance\n-Less repetitions are the best\n-Rest for 90 or more seconds between each set\n-Resistance exercise should occur at a controlled speed but not too slow\n-Do not hold your breath as it will elevate your blood pressure</string>
+
+    <string name="sub_62">Examples of resistance training with equipment</string>
+    <string name="paragraph_62">-Chest press\n-Shoulder press\n-Triceps extension\n-Biceps curl\n-Pull-down\n-Lower-back extension\n-Quadriceps extension\n-Calf raise</string>
+
+    <string name="main_63">3. Flexibility workout</string>
+    <string name="paragraph_63">Simple flexibility workouts or stretches offer benefits for hypertensives. When you stretch your muscles and joints, you are actually stretching blood vessels and arteries and reduce  the stiffness of blood flow. It is time to add stretching into your workout routine.\n\nAccording to studies, doing it for 2 to 5 days per week can lower blood pressure.Meanwhile, it is essential to hold every exercise for 10 to 30s to ensure the gains.</string>
+
+    <string name="sub_64">Examples of flexibility stretches</string>
+    <string name="paragraph_64">-Yoga\n\nPilates</string>
+
+
+    <!---Topic 12- How to Diagnose Hypotension?-->
+    <string name="topic_12">How to Diagnose Hypotension?</string>
+
+    <string name="paragraph_65">When you have chronic hypotension symptoms, you might be curious about how you will be curious about how you will be diagonised and treated in the hospital. Let\'s look at what to know about hypotension diagnosis.\n\nYour doctor may need to perform tests below if he suspects you have hypotension:</string>
+
+    <string name="main_66">1. Blood test</string>
+    <string name="paragraph_66">The most effective way to grasp your overall blood information is taking blood tests. Your blood sugar level and red blood cell count will be collected to examine whether you have hypotension or not.</string>
+
+    <string name="main_67">2. Tilt table test</string>
+    <string name="paragraph_67">Another common method to test suspected orthostatic hypotension is the tilt table test. You will rest while supine for few minutes before th test. During testing, the table would be slowly elevated to an upright angle for a while. In the meantime, your heart rate, blood pressure, and symptoms will be measured at regular intervals.\n\nYou will be considered as having orthostatic hypotension if your systolic number drops 20mmHg or the diastolic one falls 10mmHg below the baseline.\n\nIf symptoms occur during testing, the patient should be returned to the supine position immediately.</string>
+
+    <string name="main_68">3. Electrocardiogram</string>
+    <string name="paragraph_68">To chceck potential heart problems that can lead to blood pressure drops, an electrocardiogram cannot be missed. It is a painless and noninvasive test, during which soft and sticky patches (electrodes) are attached to the skin of your chest, arms, and legs to attain the heart\'s electrical signals\n\nAny irregularities in your heart rhythm, structural problems in your heart, problems with the supply of blood and oxygen to your heart muscle or other heart issues would be detected accurately via the test.</string>
+
+
+    <!---Topic 13- First-line Drugs for Hypotension-->
+    <string name="topic_13">First-line Drugs for Hypotension</string>
+
+    <string name="paragraph_69">If your tests taken show a positive outcome and you have symptoms, you may need medical therapies to cure hypotension. So what are the treatments for low blood pressure?</string>
+
+    <string name="main_70">1. Fludrocortisone</string>
+    <string name="paragraph_70">Fludrocortisone is a medication that seems to help most types of low blood pressure. It increases the blood pressure by raising the salt level in the body which in turn increases the volume of the blood.</string>
+
+    <string name="sub_71">Side effects include:</string>
+    <string name="paragraph_71">-Headache\n-Nausea\n-Dizziness\n-Insomania\n-Supine hypertension\n-Congestive heart failure\n-Increased risk of infection</string>
+
+    <string name="sub_72">Who should not take it?</string>
+    <string name="paragraph_72">-People with lung, liver, kidney, and heart problems should consult their doctots before taking it.\n\n-People with cancer, hypertension, diabetes or any infection risk should take caution.\n\n-Besides, pregnant and breastfeeding women as well as people with a severe allergy need to ask for a doctor\'s advice concerning taking it.</string>
+
+    <string name="main_73">2. Pyridostigmine</string>
+    <string name="paragraph_73">Pyridostigmine would improve nerve cell transmission for othostatic hypotension patients and trigger the reflex that controls blood pressure, especially helpful for patients with high supine blood pressure. Meanwhile, its side effects are minor and mild.</string>
+
+    <string name="sub_74">Side effects are:</string>
+    <string name="paragraph_74">-Abs cramps\n-Increased urination</string>
+
+    <string name="sub_75">Who should not take it?</string>
+    <string name="paragraph_75">- People with a blockage in the intestine or urinary tract.\n-Besides, pregnant and breastfeeding women as well as people with a severe allergy need to ask for a doctor\'s advice concerning taking it.</string>
+
+    <string name="main_76">3. Milodrine</string>
+    <string name="paragraph_76">It increases your blood pressure by activating receptors of thr blood vessels to narrow them, Midodrine can boost blood pressure even when you are at rest. Thus, this medicine should be used only if you have severely low blood pressure that affects your daily life or other therapies do not work.</string>
+
+    <string name="sub_77">Side effects cover:</string>
+    <string name="paragraph_77">-Chills\n-Numbness\n-Headache\n-Dizziness\n-Nausea\n-Fatigue\n-Difficulty in urination\n-Increased urination</string>
+
+    <string name="sub_78">Who should not take it?</string>
+    <string name="paragraph_78">-Midodrine can cause severe reactions when combining with certain medications. Hence, do tell your doctor what medications, vitamins, nutritional supplements, and herbal products you are taking or what you used to take before having it.\n-People with diabetes, vision problems, or liver disease cannot use midodrine to treat hypotension.\n-People who are going to take any kind of surgery should consult their doctor.\n-Besides, pregnant and breastfeeding women as well as people with a severe allergy need to ask for a doctor\'s advice concerning taking it.</string>
+
+
+    <!---Topic 14- First Aid Tips for Hypertensive Crisis-->
+    <string name="topic_14">First Aid Tips for Hypertensive Crisis</string>
+
+    <string name="paragraph_79">There may be cases where vblood pressure shoots up unexpectedly (systolic blood pressure reaching 180 and/or diastolic one reaching 120 mmHg) and emergency care is required. After calling for immediate medical service or during your waiting for the ambulance, what can be the first aid? No worries, we have prepared all the know-how for you.</string>
+
+    <string name="main_80">1. Calm yourself down benefits blood pressure lowering</string>
+    <string name="paragraph_80">One thing all hypertension patients need to keep in mind is that lower stress means lower blood pressure. Researchers have found that relaxing fully for a few minutes can decrease systolic blood pressure by 10 mmHg or more. Thus, it is the most natural way to lower your blood pressure during hypertensive urgency. Below are some relaxation tips you can try:\n-Stop your current task\n-Take deep breaths\n-Sit down or lie flat\n-Listen to relaxing sounds\n-Meditate</string>
+
+    <string name="main_81">2. Take your blood pressure medication</string>
+    <string name="paragraph_81">If you are a hypertension patient, you must have blood pressure medicines tht the doctor has prescribed for you. Medication is the main option for treating high blood pressure. Therefore, if you or your family members experience a hypertensive emergency, never forget to take medical treatment as soon as possible.</string>
+
+    <string name="main_82">3. Sip a cup of hibiscus tea</string>
+    <string name="paragraph_82">Don\'t be surprised. It has been improved by many studies both direct and indirect positive influences on your blood pressure. As useful as certain medical treatments, anthocyanins and some antioxidants in the hibiscus can lower your blood pressure. Drinking hibiscus tea can lower your systolic blood pressure number by 7 points at best.\n\nMeanwhile, sipping tea can also reduce your blood pressure indirectly by lower stress. The soothing tea helps you feel calmer, control anger, lower your BP numbers.</string>
+
+    <string name="main_83">4. Have dark chocolate</string>
+    <string name="paragraph_83">Eating a small amount of dark chocolate can help lower your blood pressure . It contains catechins and procyanidins, which can lead to dilation of the blood vessels. According to research, both systolic and diastolic numbers were lowered by 2 to 3 mmHg after taking dark chocolate. Although changes are modest, the positive effect is true.\n\nMoreover, dark chocolate can indirectly affect your hypertension positively by helping the release of endorphins that will calm you down. It\'s time to stock some just in case.</string>
+
+
+    <!---Topic 15- First Aid Tips for Hypotensive Crisis-->
+    <string name="topic_15">First Aid Tips for Hypotensive Crisis</string>
+
+    <string name="paragraph_84">When your blood pressure is very low or drops rapidly, it can be a medical emergency. The first step should be contacting your doctor for immediate medical treatment and taking a careful review of your medications. But what else can you do? Learn tips below and you will no longer be clueless.</string>
+
+    <string name="main_85">1. Lie down</string>
+    <string name="paragraph_85">When you are experiencing any hypotensive symptoms, try to sit or lie down on a flat surface safely and immediately. Keep standing can make your postural hypotension worse. Lying down or sitting benefits your blood pressure normalization.</string>
+
+    <string name="main_86">2. Stay hydrated</string>
+    <string name="paragraph_86">One of the common causes of hypotension is dehydration. Thus, drink more fluids, covering water, coconut water, and sports drink, can not only ease your dehydration but also helps maintain the fluids in your body. Besides, you can a small amount of salt or sugar to improve your blood pressure or restore your glucose level.</string>
+
+    <string name="main_87">3. Take adequate salt</string>
+    <string name="paragraph_87">Try eating more salty foods or lick a pinch of salt to let the sodium raise your blood pressure. You can also drink sports drinks or take oral rehydration salts (ORS) which can rehydrate you and provide salt as well as other electrolytes to improve your blood pressure.\n\nHowever, don\'t take ORS if you are a diabetes patient and do make sure you do not take too much salt. It may lead to problems like water retention along with high blood pressure.</string>
+
+    <string name="main_88">4. Wear compression stockings</string>
+    <string name="paragraph_88">People with orthostatic hypotension usually have blood pools in the legs. Compression stockings work by applying sight pressure to your legs to lead blood flow to your heart, which indicates the thigh-high or waist-high version will be effective.\n\nPlease note that certain patients are not suitable to wear them. Thus, consulting your doctor is vital.\n\nNow you know what to do whe you or someone else experiences hypotension. However, don\'t try to take yourself as an expert. Remember to always visit your doctor and never self-medicate.</string>
+
+    <!---XML-->
+    <string name="add_record">Add Record</string>
+    <string name="see_all_records">See All Records</string>
+    <string name="tracker">Tracker</string>
+    <string name="latest">Latest</string>
+    <string name="average">Average</string>
+    <string name="max">Max</string>
+    <string name="min">Min</string>
+    <string name="twofour_hour_average">24h Average</string>
+    <string name="hypertension">Hypertension</string>
+    <string name="systolic_mmhg">Systolic (mmHg)</string>
+    <string name="diastolic_mmhg">Diastolic (mmHg)</string>
+    <string name="pulse_bpm">Pulse (BPM)</string>
+    <string name="learn_bp">Learn About Blood Pressure</string>
+    <string name="info">Info</string>
+    <string name="bpm">BPM</string>
+    <string name="mmhg">mmHg</string>
+    <string name="pulse">Pulse</string>
+    <string name="systolic">Systolic</string>
+    <string name="diastolic">Diastolic</string>
+    <string name="new_record">New Record</string>
+    <string name="delete">Delete</string>
+    <string name="date_and_time">Date and time</string>
+    <string name="save">Save</string>
+
+    <string name="faq">FAQ</string>
+
+    <string name="knowledge">Knowledge</string>
+
+    <string name="language">Language</string>
+
+    <string name="privacy_policy">Privacy Policy</string>
+
+    <string name="history">History</string>
+
+    <string name="delete_this_record">Delete this record?</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="settings">Settings</string>
+    <string name="language_options">Language Options</string>
+    <string name="export_as_file">Export as file</string>
+    <string name="rate_us">Rate Us</string>
+    <string name="share">Share</string>
+    <string name="feedback">Feedback</string>
+    <string name="version">Version</string>
+
+    <string name="my_blood_pressure">My Blood Pressure</string>
+
+    <string name="blood_pressure">Blood Pressure</string>
+    <string name="err">Err</string>
+    <string name="unlock_stats">Add at least 1 record to unlock the stats</string>
+    <string name="dias_greater">Systolic number must exceed Diastolic Number</string>
+
+
+</resources>

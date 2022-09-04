@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.BloodPressureMonitorApp" parent="Theme.MaterialComponents.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#FFFFFF</item>
+        <item name="colorPrimaryVariant">#E4E4E4</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">#E6E6E6</item>
+        <item name="colorSecondaryVariant">#E6E6E6</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" >#FFFFFF</item>
+        <!-- Customize your theme here. -->
+        <item name="android:navigationBarColor">@color/white</item>
+    </style>
+</resources>

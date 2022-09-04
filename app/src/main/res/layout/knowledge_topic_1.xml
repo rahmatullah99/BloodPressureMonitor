@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@color/black"
+    android:orientation="vertical"
+tools:context=".Activities.KnowledgeTopic">
+
+<androidx.constraintlayout.widget.Guideline
+    android:id="@+id/guideline2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    app:layout_constraintGuide_percent="0.035" />
+
+<androidx.constraintlayout.widget.Guideline
+    android:id="@+id/guideline3"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    app:layout_constraintGuide_percent="0.965" />
+
+<androidx.constraintlayout.widget.Guideline
+    android:id="@+id/guideline4"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="411dp"
+    android:orientation="horizontal"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintGuide_percent="0.02" />
+
+<androidx.constraintlayout.widget.Guideline
+    android:id="@+id/guideline5"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    app:layout_constraintGuide_percent="0.98" />
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline5"
+        app:layout_constraintEnd_toStartOf="@+id/guideline3"
+        app:layout_constraintStart_toStartOf="@+id/guideline2">
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/KnowledgeCardBtn"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/medium10"
+            android:backgroundTint="@color/cardview_dark_background"
+            app:cardCornerRadius="@dimen/small5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/backBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/marginMedium"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/guideline2"
+                app:layout_constraintTop_toTopOf="@+id/guideline4"
+                app:layout_constraintVertical_bias="0.01"
+                app:srcCompat="@drawable/left_arrow_white" />
+
+            <TextView
+                android:id="@+id/knowledgeTopicTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start|center_vertical"
+                android:padding="@dimen/paddingLarge"
+                android:text="Know BP Numbers &amp;\nRange"
+                android:textColor="@color/white"
+                android:textSize="@dimen/mediumText2"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/knowledgeImage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|right"
+                android:layout_marginTop="@dimen/small2"
+                android:padding="@dimen/paddingLarge"
+                android:src="@android:drawable/title_bar" />
+
+        </com.google.android.material.card.MaterialCardView>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/rounded_corners_bg3"
+        android:paddingHorizontal="@dimen/small4"
+        android:paddingVertical="@dimen/paddingxLarge"
+        android:text="@string/paragraph_1"
+        android:textAlignment="textStart"
+        android:textColor="@color/white"
+        android:textSize="@dimen/smallMedText1"
+        app:layout_constraintEnd_toStartOf="@+id/guideline3"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toBottomOf="@+id/KnowledgeCardBtn" />
+
+    <LinearLayout
+        android:id="@+id/section"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:background="@color/grey"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toStartOf="@+id/guideline3"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toBottomOf="@+id/textView3">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="7"
+            android:paddingLeft="@dimen/paddingMedium"
+            android:paddingTop="@dimen/paddingMedium"
+            android:paddingRight="@dimen/paddingMedium"
+            android:paddingBottom="@dimen/paddingMedium"
+            android:text="TextView"
+            android:textColor="@color/white"
+            android:textSize="@dimen/smallText5"
+            android:textStyle="bold"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="@dimen/small1">
+
+            <View
+                android:layout_width="@dimen/small3"
+                android:layout_height="@dimen/small11"
+                android:background="#6A6A6A" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="7"
+                android:background="@drawable/rounded_corners_bg3"
+                android:paddingHorizontal="@dimen/paddingMedium"
+                android:paddingVertical="@dimen/paddingxxLarge"
+                android:text="TextView"
+                android:textColor="@color/white"
+                android:textSize="@dimen/mediumText2"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_corners_bg3"
+            android:paddingHorizontal="@dimen/small4"
+            android:paddingBottom="@dimen/paddingxxLarge"
+            android:text="TextView"
+            android:textColor="@color/white"
+            android:textSize="@dimen/smallMedText1" />
+    </LinearLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/sdfsdf"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="@color/grey"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toStartOf="@+id/guideline3"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/guideline2"
+            app:layout_constraintTop_toBottomOf="@+id/textView3">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

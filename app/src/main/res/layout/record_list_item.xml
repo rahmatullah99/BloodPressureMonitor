@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/medium4"
+    android:background="@drawable/background_3"
+    android:id="@+id/recordView"
+    android:paddingTop="@dimen/small4"
+    android:paddingBottom="@dimen/small4"
+    android:layout_marginVertical="@dimen/small2"
+    android:paddingHorizontal="@dimen/small4">
+
+    <TextView
+        android:id="@+id/timeAndBPM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="@color/white"
+        android:textSize="@dimen/smallText3"
+        app:layout_constraintBottom_toBottomOf="@+id/categoryColor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/category"
+        app:layout_constraintTop_toTopOf="@+id/categoryColor"
+        app:layout_constraintVertical_bias="0.87" />
+
+    <TextView
+        android:id="@+id/systolic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="@color/white"
+        android:textSize="@dimen/mediumText"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/categoryColor"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.24000001" />
+
+    <TextView
+        android:id="@+id/diastolic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="@color/white"
+        android:textSize="@dimen/mediumText"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/categoryColor"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.76" />
+
+    <View
+        android:id="@+id/categoryColor"
+        android:layout_width="@dimen/small3"
+        android:layout_height="@dimen/medium1"
+        android:background="@drawable/category_normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/category"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="@color/white"
+        android:textSize="@dimen/smallText4"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/categoryColor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.08"
+        app:layout_constraintStart_toEndOf="@+id/categoryColor"
+        app:layout_constraintTop_toTopOf="@+id/categoryColor"
+        app:layout_constraintVertical_bias="0.13999999" />
+
+    <ImageView
+        android:id="@+id/editRecordBtn"
+        android:layout_width="@dimen/small7"
+        android:layout_height="@dimen/small7"
+        android:layout_marginEnd="@dimen/small3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.493"
+        app:srcCompat="@drawable/edit_white" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Text-->
+    <dimen name="largeText">35sp</dimen>
+    <dimen name="largeText2">38sp</dimen>
+    <dimen name="largeText3">41sp</dimen>
+    <dimen name="largeText4">44sp</dimen>
+    <dimen name="largeText5">47sp</dimen>
+    <dimen name="largeText6">50sp</dimen>
+
+    <dimen name="smallText">5sp</dimen>
+    <dimen name="smallText2">9sp</dimen>
+    <dimen name="smallText3">12sp</dimen>
+    <dimen name="smallText4">15sp</dimen>
+    <dimen name="smallText5">18sp</dimen>
+
+    <dimen name="smallMedText1">19sp</dimen>
+    <dimen name="smallMedText2">20sp</dimen>
+
+    <dimen name="mediumText">21sp</dimen>
+    <dimen name="mediumText2">24sp</dimen>
+    <dimen name="mediumText3">27sp</dimen>
+    <dimen name="mediumText4">30sp</dimen>
+    <dimen name="mediumText5">33sp</dimen>
+
+
+    <!--Padding-->
+    <dimen name="paddingSmall">5dp</dimen>
+    <dimen name="paddingMedium">10dp</dimen>
+    <dimen name="paddingLarge">15dp</dimen>
+    <dimen name="paddingxLarge">20dp</dimen>
+    <dimen name="paddingxxLarge">25dp</dimen>
+
+    <!--Margin-->
+    <dimen name="marginSmall">20dp</dimen>
+    <dimen name="marginMedium">25dp</dimen>
+    <dimen name="marginLarge">30dp</dimen>
+    <dimen name="marginxLarge">35dp</dimen>
+    <dimen name="marginxxLarge">35dp</dimen>
+
+    <!--Others-->
+    <dimen name="small1">1dp</dimen>
+    <dimen name="small2">3dp</dimen>
+    <dimen name="small3">5dp</dimen>
+    <dimen name="small4">8dp</dimen>
+    <dimen name="small5">11dp</dimen>
+    <dimen name="small6">14dp</dimen>
+    <dimen name="small7">17dp</dimen>
+    <dimen name="small8">20dp</dimen>
+    <dimen name="small9">23dp</dimen>
+    <dimen name="small10">26dp</dimen>
+    <dimen name="small11">29dp</dimen>
+
+    <dimen name="medium1">48dp</dimen>
+    <dimen name="medium1.5">56dp</dimen>
+    <dimen name="medium2">65dp</dimen>
+    <dimen name="medium2.5">73dp</dimen>
+    <dimen name="medium3">80dp</dimen>
+    <dimen name="medium3.5">87dp</dimen>
+    <dimen name="medium4">95dp</dimen>
+    <dimen name="medium4.5">103dp</dimen>
+    <dimen name="medium5">110dp</dimen>
+    <dimen name="medium5.5">117dp</dimen>
+    <dimen name="medium6">125dp</dimen>
+    <dimen name="medium6.5">133dp</dimen>
+    <dimen name="medium7">140dp</dimen>
+    <dimen name="medium7.5">147dp</dimen>
+    <dimen name="medium8">155dp</dimen>
+    <dimen name="medium8.5">163dp</dimen>
+    <dimen name="medium9">170dp</dimen>
+    <dimen name="medium9.5">177dp</dimen>
+    <dimen name="medium10">185dp</dimen>
+
+    <dimen name="large1">200dp</dimen>
+    <dimen name="large1.5">225dp</dimen>
+    <dimen name="large2">250dp</dimen>
+    <dimen name="large2.5">275dp</dimen>
+    <dimen name="large3">300dp</dimen>
+    <dimen name="large3.5">325dp</dimen>
+    <dimen name="large4">350dp</dimen>
+    <dimen name="large4.5">375dp</dimen>
+    <dimen name="large5">400dp</dimen>
+    <dimen name="large5.5">425dp</dimen>
+    <dimen name="large6">450dp</dimen>
+
+    <dimen name="fab_margin">16dp</dimen>
+
+</resources>

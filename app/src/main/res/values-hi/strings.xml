@@ -1,0 +1,866 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ब्लड प्रेशर मॉनिटर ऐप</string>
+    <string name="selected_language">हिन्दी</string>
+    <string name="title_activity_language">भाषा</string>
+
+    <!-- Date and time -->
+    <!-- Months -->
+    <string name="jan">जनवरी</string>
+    <string name="mar">मार्च</string>
+    <string name="apr">अप्रैल</string>
+    <string name="may">मई</string>
+    <string name="june">जून</string>
+    <string name="july">जुलाई</string>
+    <string name="aug">अगस्त</string>
+    <string name="sep">सितम्बर</string>
+    <string name="oct">अक्टूबर</string>
+    <string name="nov">नवम्बर</string>
+    <string name="dec">दिसम्बर</string>
+
+    <!-- Days -->
+    <string-array name="days">
+        <item>Jan 1</item>
+        <item>Jan 2</item>
+        <item>Jan 3</item>
+        <item>Jan 4</item>
+        <item>Jan 5</item>
+        <item>Jan 6</item>
+        <item>Jan 7</item>
+        <item>Jan 8</item>
+        <item>Jan 9</item>
+        <item>jan 10</item>
+        <item>Jan 11</item>
+        <item>Jan 12</item>
+        <item>Jan 13</item>
+        <item>Jan 14</item>
+        <item>Jan 15</item>
+        <item>Jan 16</item>
+        <item>Jan 17</item>
+        <item>Jan 18</item>
+        <item>Jan 19</item>
+        <item>Jan 20</item>
+        <item>Jan 21</item>
+        <item>Jan 22</item>
+        <item>Jan 23</item>
+        <item>Jan 24</item>
+        <item>Jan 25</item>
+        <item>Jan 26</item>
+        <item>Jan 27</item>
+        <item>Jan 28</item>
+        <item>Jan 29</item>
+        <item>Jan 30</item>
+        <item>Jan 31</item>
+        <item>Feb 1</item>
+        <item>Feb 2</item>
+        <item>Feb 3</item>
+        <item>Feb 4</item>
+        <item>Feb 5</item>
+        <item>Feb 6</item>
+        <item>Feb 7</item>
+        <item>Feb 8</item>
+        <item>Feb 9</item>
+        <item>Feb 10</item>
+        <item>Feb 11</item>
+        <item>Feb 12</item>
+        <item>Feb 13</item>
+        <item>Feb 14</item>
+        <item>Feb 15</item>
+        <item>Feb 16</item>
+        <item>Feb 17</item>
+        <item>Feb 18</item>
+        <item>Feb 19</item>
+        <item>Feb 20</item>
+        <item>Feb 21</item>
+        <item>Feb 22</item>
+        <item>Feb 23</item>
+        <item>Feb 24</item>
+        <item>Feb 25</item>
+        <item>Feb 26</item>
+        <item>Feb 27</item>
+        <item>Feb 28</item>
+        <item>Feb 29</item>
+        <item>Mar 1</item>
+        <item>Mar 2</item>
+        <item>Mar 3</item>
+        <item>Mar 4</item>
+        <item>Mar 5</item>
+        <item>Mar 6</item>
+        <item>Mar 7</item>
+        <item>Mar 8</item>
+        <item>Mar 9</item>
+        <item>Mar 10</item>
+        <item>Mar 11</item>
+        <item>Mar 12</item>
+        <item>Mar 13</item>
+        <item>Mar 14</item>
+        <item>Mar 15</item>
+        <item>Mar 16</item>
+        <item>Mar 17</item>
+        <item>Mar 18</item>
+        <item>Mar 19</item>
+        <item>Mar 20</item>
+        <item>Mar 21</item>
+        <item>Mar 22</item>
+        <item>Mar 23</item>
+        <item>Mar 24</item>
+        <item>Mar 25</item>
+        <item>Mar 26</item>
+        <item>Mar 27</item>
+        <item>Mar 28</item>
+        <item>Mar 29</item>
+        <item>Mar 30</item>
+        <item>Mar 31</item>
+        <item>Apr 1</item>
+        <item>Apr 2</item>
+        <item>Apr 3</item>
+        <item>Apr 4</item>
+        <item>Apr 5</item>
+        <item>Apr 6</item>
+        <item>Apr 7</item>
+        <item>Apr 8</item>
+        <item>Apr 9</item>
+        <item>Apr 10</item>
+        <item>Apr 11</item>
+        <item>Apr 12</item>
+        <item>Apr 13</item>
+        <item>Apr 14</item>
+        <item>Apr 15</item>
+        <item>Apr 16</item>
+        <item>Apr 17</item>
+        <item>Apr 18</item>
+        <item>Apr 19</item>
+        <item>Apr 20</item>
+        <item>Apr 21</item>
+        <item>Apr 22</item>
+        <item>Apr 23</item>
+        <item>Apr 24</item>
+        <item>Apr 25</item>
+        <item>Apr 26</item>
+        <item>Apr 27</item>
+        <item>Apr 28</item>
+        <item>Apr 29</item>
+        <item>Apr 30</item>
+        <item>May 1</item>
+        <item>May 2</item>
+        <item>May 3</item>
+        <item>May 4</item>
+        <item>May 5</item>
+        <item>May 6</item>
+        <item>May 7</item>
+        <item>May 8</item>
+        <item>May 9</item>
+        <item>May 10</item>
+        <item>May 11</item>
+        <item>May 12</item>
+        <item>May 13</item>
+        <item>May 14</item>
+        <item>May 15</item>
+        <item>May 16</item>
+        <item>May 17</item>
+        <item>May 18</item>
+        <item>May 19</item>
+        <item>May 20</item>
+        <item>May 21</item>
+        <item>May 22</item>
+        <item>May 23</item>
+        <item>May 24</item>
+        <item>May 25</item>
+        <item>May 26</item>
+        <item>May 27</item>
+        <item>May 28</item>
+        <item>May 29</item>
+        <item>May 30</item>
+        <item>May 31</item>
+        <item>June 1</item>
+        <item>June 2</item>
+        <item>June 3</item>
+        <item>June 4</item>
+        <item>June 5</item>
+        <item>June 6</item>
+        <item>June 7</item>
+        <item>June 8</item>
+        <item>June 9</item>
+        <item>June 10</item>
+        <item>June 11</item>
+        <item>June 12</item>
+        <item>June 13</item>
+        <item>June 14</item>
+        <item>June 15</item>
+        <item>June 16</item>
+        <item>June 17</item>
+        <item>June 18</item>
+        <item>June 19</item>
+        <item>June 20</item>
+        <item>June 21</item>
+        <item>June 22</item>
+        <item>June 23</item>
+        <item>June 24</item>
+        <item>June 25</item>
+        <item>June 26</item>
+        <item>June 27</item>
+        <item>June 28</item>
+        <item>June 29</item>
+        <item>June 30</item>
+        <item>July 1</item>
+        <item>July 2</item>
+        <item>July 3</item>
+        <item>July 4</item>
+        <item>July 5</item>
+        <item>July 6</item>
+        <item>July 7</item>
+        <item>July 8</item>
+        <item>July 9</item>
+        <item>July 10</item>
+        <item>July 11</item>
+        <item>July 12</item>
+        <item>July 13</item>
+        <item>July 14</item>
+        <item>July 15</item>
+        <item>July 16</item>
+        <item>July 17</item>
+        <item>July 18</item>
+        <item>July 19</item>
+        <item>July 20</item>
+        <item>July 21</item>
+        <item>July 22</item>
+        <item>July 23</item>
+        <item>July 24</item>
+        <item>July 25</item>
+        <item>July 26</item>
+        <item>July 27</item>
+        <item>July 28</item>
+        <item>July 29</item>
+        <item>July 30</item>
+        <item>July 31</item>
+        <item>Aug 1</item>
+        <item>Aug 2</item>
+        <item>Aug 3</item>
+        <item>Aug 4</item>
+        <item>Aug 5</item>
+        <item>Aug 6</item>
+        <item>Aug 7</item>
+        <item>Aug 8</item>
+        <item>Aug 9</item>
+        <item>Aug 10</item>
+        <item>Aug 11</item>
+        <item>Aug 12</item>
+        <item>Aug 13</item>
+        <item>Aug 14</item>
+        <item>Aug 15</item>
+        <item>Aug 16</item>
+        <item>Aug 17</item>
+        <item>Aug 18</item>
+        <item>Aug 19</item>
+        <item>Aug 20</item>
+        <item>Aug 21</item>
+        <item>Aug 22</item>
+        <item>Aug 23</item>
+        <item>Aug 24</item>
+        <item>Aug 25</item>
+        <item>Aug 26</item>
+        <item>Aug 27</item>
+        <item>Aug 28</item>
+        <item>Aug 29</item>
+        <item>Aug 30</item>
+        <item>Aug 31</item>
+        <item>Sep 1</item>
+        <item>Sep 2</item>
+        <item>Sep 3</item>
+        <item>Sep 4</item>
+        <item>Sep 5</item>
+        <item>Sep 6</item>
+        <item>Sep 7</item>
+        <item>Sep 8</item>
+        <item>Sep 9</item>
+        <item>Sep 10</item>
+        <item>Sep 11</item>
+        <item>Sep 12</item>
+        <item>Sep 13</item>
+        <item>Sep 14</item>
+        <item>Sep 15</item>
+        <item>Sep 16</item>
+        <item>Sep 18</item>
+        <item>Sep 19</item>
+        <item>Sep 20</item>
+        <item>Sep 21</item>
+        <item>Sep 22</item>
+        <item>Sep 23</item>
+        <item>Sep 24</item>
+        <item>Sep 25</item>
+        <item>Sep 26</item>
+        <item>Sep 27</item>
+        <item>Sep 28</item>
+        <item>Sep 29</item>
+        <item>Sep 30</item>
+        <item>Oct 1</item>
+        <item>Oct 2</item>
+        <item>Oct 3</item>
+        <item>Oct 4</item>
+        <item>Oct 5</item>
+        <item>Oct 6</item>
+        <item>Oct 7</item>
+        <item>Oct 8</item>
+        <item>Oct 9</item>
+        <item>Oct 10</item>
+        <item>Oct 11</item>
+        <item>Oct 12</item>
+        <item>Oct 13</item>
+        <item>Oct 14</item>
+        <item>Oct 15</item>
+        <item>Oct 16</item>
+        <item>Oct 17</item>
+        <item>Oct 18</item>
+        <item>Oct 19</item>
+        <item>Oct 20</item>
+        <item>Oct 21</item>
+        <item>Oct 22</item>
+        <item>Oct 23</item>
+        <item>Oct 24</item>
+        <item>Oct 25</item>
+        <item>Oct 26</item>
+        <item>Oct 27</item>
+        <item>Oct 28</item>
+        <item>Oct 29</item>
+        <item>Oct 30</item>
+        <item>Oct 31</item>
+        <item>Nov 1</item>
+        <item>Nov 2</item>
+        <item>Nov 3</item>
+        <item>Nov 4</item>
+        <item>Nov 5</item>
+        <item>Nov 6</item>
+        <item>Nov 7</item>
+        <item>Nov 8</item>
+        <item>Nov 9</item>
+        <item>Nov 10</item>
+        <item>Nov 11</item>
+        <item>Nov 12</item>
+        <item>Nov 13</item>
+        <item>Nov 14</item>
+        <item>Nov 15</item>
+        <item>Nov 16</item>
+        <item>Nov 17</item>
+        <item>Nov 18</item>
+        <item>Nov 19</item>
+        <item>Nov 20</item>
+        <item>Nov 21</item>
+        <item>Nov 22</item>
+        <item>Nov 23</item>
+        <item>Nov 24</item>
+        <item>Nov 25</item>
+        <item>Nov 26</item>
+        <item>Nov 27</item>
+        <item>Nov 28</item>
+        <item>Nov 29</item>
+        <item>Nov 30</item>
+        <item>Dec 1</item>
+        <item>Dec 2</item>
+        <item>Dec 3</item>
+        <item>Dec 4</item>
+        <item>Dec 5</item>
+        <item>Dec 6</item>
+        <item>Dec 7</item>
+        <item>Dec 8</item>
+        <item>Dec 9</item>
+        <item>Dec 10</item>
+        <item>Dec 11</item>
+        <item>Dec 12</item>
+        <item>Dec 13</item>
+        <item>Dec 14</item>
+        <item>Dec 15</item>
+        <item>Dec 16</item>
+        <item>Dec 17</item>
+        <item>Dec 18</item>
+        <item>Dec 19</item>
+        <item>Dec 20</item>
+        <item>Dec 221</item>
+        <item>Dec 21</item>
+        <item>Dec 22</item>
+        <item>Dec 23</item>
+        <item>Dec 24</item>
+        <item>Dec 25</item>
+        <item>Dec 26</item>
+        <item>Dec 27</item>
+        <item>Dec 28</item>
+        <item>Dec 29</item>
+        <item>Dec 30</item>
+        <item>Dec 31</item>
+    </string-array>
+
+    <!-- Hours -->
+    <string-array name="hours">
+        <item>00</item>
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+    </string-array>
+
+    <!-- Minutes -->
+    <string-array name="minutes">
+        <item>00</item>
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+        <item>35</item>
+        <item>36</item>
+        <item>37</item>
+        <item>38</item>
+        <item>39</item>
+        <item>40</item>
+        <item>41</item>
+        <item>42</item>
+        <item>43</item>
+        <item>44</item>
+        <item>45</item>
+        <item>46</item>
+        <item>47</item>
+        <item>48</item>
+        <item>49</item>
+        <item>50</item>
+        <item>51</item>
+        <item>52</item>
+        <item>53</item>
+        <item>54</item>
+        <item>55</item>
+        <item>56</item>
+        <item>57</item>
+        <item>58</item>
+        <item>59</item>
+    </string-array>
+
+    <!-- Categories -->
+    <string name="hypotension">अल्प रक्त-चाप</string>
+    <string name="normal">सामान्य</string>
+    <string name="elevated">तरक्की</string>
+    <string name="hypertension_1">उच्च रक्तचाप-चरण 1</string>
+    <string name="hypertension_2">उच्च रक्तचाप-चरण 2</string>
+    <string name="hypertensive">उच्च रक्तचाप से ग्रस्त</string>
+
+
+    <!-- Categories range -->
+    <string name="hypotension_range">एसवाईएस &lt; 90 या डीआईए &lt; 60</string>
+    <string name="normal_range">एसवाईएस 90-119 और डीआईए 60-79</string>
+    <string name="elevated_range">एसवाईएस 120-129 और डीआईए 60-79</string>
+    <string name="hypertension1_range">एसवाईएस 130-139 और डीआईए 80-89</string>
+    <string name="hypertension2_range">एसवाईएस 140-180 और डीआईए 90-120</string>
+    <string name="hypertensive_range">एसवाईएस &gt; 180 या डीआईए &gt; 120</string>
+
+
+    <!-- Categories feedback -->
+    <string name="elevated_feedback">आपका रक्तचाप सामान्य से थोड़ा ऊपर है। हमारा सुझाव है कि आप एक स्वस्थ जीवनशैली अपनाएं और अपने रक्तचाप को नियमित रूप से मापें।</string>
+    <string name="hypertension1_feedback">यदि आपके पास इस क्षेत्र में 3 या अधिक रीडिंग हैं, तो यह समय है कि आप अपने डॉक्टर से जीवनशैली में सुधार के बारे में नुस्खे पूछें।</string>
+    <string name="hypertension2_feedback">यदि आपने इस क्षेत्र में 3 या अधिक रीडिंग प्राप्त की हैं, तो चिकित्सा उपचार और जीवनशैली में बदलाव के माध्यम से अपने शरीर की देखभाल करें।</string>
+    <string name="hypertensive_feedback">हमें आपकी चिंता है..कृपया आपातकालीन चिकित्सा सेवाओं के लिए तुरंत कॉल करें!</string>
+
+
+    <!-- FAQ Questions -->
+    <string name="question_1">सामान्य रक्तचाप (बीपी) सीमा क्या है?</string>
+    <string name="question_2">हाइपोटेंशन क्या है?</string>
+    <string name="question_3">उच्च और निम्न रक्तचाप के लक्षण क्या हैं?</string>
+    <string name="question_4">उच्च रक्तचाप क्या माना जाता है?</string>
+    <string name="question_5">उच्च रक्तचाप होने के जोखिम क्या हैं?</string>
+    <string name="question_6">मैं अपना रक्तचाप कम करने के लिए क्या कर सकता हूं?</string>
+    <string name="question_7">ब्लड प्रेशर रीडिंग लेने के लिए किस हाथ का उपयोग किया जाता है?</string>
+    <string name="question_8">मेरे रक्तचाप की दवा लेने का सबसे अच्छा समय कब है?</string>
+    <string name="question_9">मैं अपना खुद का रक्तचाप कैसे ले सकता हूँ?</string>
+    <string name="question_10">क्या शराब रक्तचाप बढ़ा सकती है?</string>
+    <string name="question_11">रक्तचाप कम करने के लिए सबसे अच्छा व्यायाम क्या है?</string>
+    <string name="question_12">उच्च रक्तचाप कब एक आपात स्थिति है?</string>
+    <string name="question_13">क्या उच्च रक्तचाप के कारण सिरदर्द होता है?</string>
+    <string name="question_14">क्या उच्च रक्तचाप का इलाज संभव है?</string>
+    <string name="question_15">कौन सा ब्लड प्रेशर नंबर अधिक महत्वपूर्ण है?</string>
+    <string name="question_16">क्या धूम्रपान उच्च रक्तचाप का कारण बनता है?</string>
+    <string name="question_17">रक्तचाप की दवा को काम करने में कितना समय लगता है?</string>
+    <string name="question_18">उच्च रक्तचाप आपको कैसा महसूस कराता है?</string>
+    <string name="question_19">क्या चिंता उच्च रक्तचाप का कारण बन सकती है?</string>
+    <string name="question_20">क्या मारिजुआना रक्तचाप को कम करता है?</string>
+
+
+    <!-- FAQ Answers -->
+    <string name="answer_1">आपका रक्तचाप हर मिनट बदल सकता है। यह आपके शरीर की स्थिति, सांस लेने की लय, तनाव के स्तर, गतिविधि के स्तर और यहां तक कि दिन के समय के आधार पर ऊपर या नीचे जा सकता है। एक सामान्य रक्तचाप का स्तर 120/80 mmHg (120 सिस्टोलिक से कम और 80 डायस्टोलिक से कम) से कम होता है। यह आपकी उम्र के आधार पर थोड़ा भिन्न हो सकता है।</string>
+    <string name="answer_2">हाइपोटेंशन एक ऐसी स्थिति है जहां रक्तचाप सामान्य से कम होता है, इस मामले में; 90/60 मिमी एचजी से कम।</string>
+    <string name="answer_3">उच्च रक्तचाप के कुछ लक्षण: -चक्कर आना -सांस लेने में कठिनाई -सिरदर्द -धुंधली दृष्टि -नाक से खून आना (एपिस्टेक्सिस) - तेज या अनियमित दिल की धड़कन (धड़कन) -जी मिचलाना -उल्टी निम्न रक्तचाप के कुछ लक्षण: -प्रकाश-सिरदर्द -चक्कर आना - बेहोशी (सिंकोप) -भ्रम -दृष्टि का धुंधला होना -जी मिचलाना -थकान</string>
+    <string name="answer_4">हाई ब्लड प्रेशर को ब्लड प्रेशर रीडिंग के रूप में परिभाषित किया जाता है जो 140/90 mmHg से अधिक होता है। 130/80 mmHg का रक्तचाप पढ़ने को उच्च माना जाता है, जबकि 120/70 mmHg की रीडिंग को मध्यम माना जाता है। उच्च रक्तचाप से हृदय रोग, स्ट्रोक और अन्य गंभीर स्वास्थ्य समस्याएं हो सकती हैं।</string>
+    <string name="answer_5">उच्च रक्तचाप से जुड़े कई जोखिम हैं, जिनमें हृदय रोग, स्ट्रोक और गुर्दे की बीमारी शामिल हैं। उच्च रक्तचाप से दृष्टि संबंधी समस्याएं, सुनने की हानि और सांस लेने में कठिनाई भी हो सकती है। यदि अनुपचारित छोड़ दिया जाए, तो उच्च रक्तचाप से दिल का दौरा या स्ट्रोक भी हो सकता है। उच्च रक्तचाप से जुड़े कई जोखिम हैं, जिनमें हृदय रोग, स्ट्रोक और गुर्दे की विफलता शामिल हैं। यदि अनुपचारित छोड़ दिया जाए, तो उच्च रक्तचाप से दिल का दौरा या स्ट्रोक हो सकता है।</string>
+    <string name="answer_6">आप अपने रक्तचाप को कम करने के लिए कई चीजें कर सकते हैं। कुछ सबसे आम में स्वस्थ आहार खाना, नियमित व्यायाम करना और धूम्रपान से बचना शामिल है। आप अपने रक्तचाप को कम करने के लिए दवाएं भी ले सकते हैं।</string>
+    <string name="answer_7">अधिकांश लोग रक्तचाप की रीडिंग बाएं हाथ से लेते हैं। हालांकि, कुछ चिकित्सीय स्थितियों वाले या जिन्हें स्ट्रोक हुआ है, उन्हें दाहिने हाथ से रक्तचाप की रीडिंग लेने की आवश्यकता हो सकती है।</string>
+    <string name="answer_8">इस प्रश्न का कोई निश्चित उत्तर नहीं है। कुछ लोग अपनी ब्लड प्रेशर की दवा हाई ब्लड प्रेशर के लिए ड्रग्स रात को सोते समय लेना पसंद करते हैं, जबकि अन्य को लगता है कि सुबह के समय दवा लेना ज्यादा असरदार होता है। अंततः, यह व्यक्ति पर निर्भर करता है कि वह कब अपने रक्तचाप की दवा लेना सबसे अच्छा महसूस करे।</string>
+    <string name="answer_9">अपना खुद का रक्तचाप लेने के कुछ तरीके हैं। एक तरीका रक्तदाबमापी का उपयोग करना है, जो एक सरल, सस्ता उपकरण है जिसे आप अधिकांश फार्मेसियों में खरीद सकते हैं। आप एक स्वचालित ब्लड प्रेशर मॉनिटर का भी उपयोग कर सकते हैं, जो आपके रक्तचाप को मापने का एक अधिक सटीक तरीका है, लेकिन यह अधिक महंगा है। आप अपने डॉक्टर से अपने रक्तचाप को मापने के लिए भी कह सकते हैं।</string>
+    <string name="answer_10">हां, शराब रक्तचाप बढ़ा सकती है। शराब पीने से आपकी हृदय गति बढ़ सकती है और आपका रक्तचाप बढ़ सकता है। शराब आपकी रक्त वाहिकाओं को भी संकुचित कर सकती है, जिससे उच्च रक्तचाप हो सकता है।</string>
+    <string name="answer_20">रक्तचाप पर मारिजुआना के प्रभावों पर सीमित शोध है। कुछ अध्ययनों में पाया गया है कि जो लोग मारिजुआना का उपयोग करते हैं उनका रक्तचाप उन लोगों की तुलना में कम होता है जो मारिजुआना का उपयोग नहीं करते हैं। हालांकि, अन्य अध्ययनों में मारिजुआना के उपयोग और निम्न रक्तचाप के बीच कोई संबंध नहीं पाया गया है। रक्तचाप पर मारिजुआना के प्रभावों को निर्धारित करने के लिए और अधिक शोध की आवश्यकता है।</string>
+
+
+    <!-- Knowledge topics -->
+    <string name="app_email_id">yourfeedbackreceiveemailid</string>
+    <string name="sharebody">इस ऐप को देखें</string>
+
+
+    <!---Topic 1- Know BP Numbers-->
+    <string name="topic_1">जानिए बीपी नंबर और नॉर्मल रेंज</string>
+
+    <string name="paragraph_1">उच्च रक्तचाप के रूप में किस सीमा को निर्धारित किया जा सकता है? यदि आपकी एक रीडिंग उच्च रक्तचाप के मानक तक पहुँचती है, लेकिन दूसरी नहीं, तो इसे कैसे निर्धारित किया जाए? अपने रक्तचाप की संख्या को परिभाषित करने के लिए, आप रक्तचाप की श्रेणी नीचे देख सकते हैं।</string>
+
+    <string name="main_2">1. हाइपोटेंशन</string>
+    <string name="paragraph_2">यदि आपकी रीडिंग 90/60 mmHg से कम है, तो आप शायद हाइपोटेंशन हैं। आपको किसी उपचार की आवश्यकता नहीं है क्योंकि निम्न रक्तचाप आमतौर पर कोई नुकसान नहीं पहुंचाता है और न ही कोई लक्षण होता है। हालांकि, जब आपका रक्तचाप अक्सर 20 एमएमएचजी से अधिक अचानक गिर जाता है, कुछ दवाओं के कारण अचानक गिर जाता है, या आपको चक्कर आना, बेहोशी, थकान आदि महसूस होती है, तो आपको उपचार की तलाश करनी चाहिए।</string>
+
+    <string name="main_3">2. सामान्य सीमा</string>
+
+    <string name="main_5">4. उच्च रक्तचाप चरण 1</string>
+
+    <string name="main_7">6. उच्च रक्तचाप संकट</string>
+
+
+    <!---Topic 2- Learn about Blood Pressure-->
+    <string name="topic_2">रक्तचाप के बारे में जानें</string>
+
+    <string name="main_9">ब्लड प्रेशर क्या है?</string>
+
+    <string name="paragraph_10">आपके ब्लड प्रेशर मॉनिटर पर दो रीडिंग सिस्टोलिक ब्लड प्रेशर और डायस्टोलिक ब्लड प्रेशर को दर्शाती हैं। सबसे ऊपर या पहली संख्या सिस्टोलिक बीपी है, जिसका अर्थ है धमनियों में दबाव की मात्रा जब आपका दिल धमनियों के माध्यम से रक्त को धकेलता है। निचला या दूसरा नंबर डायस्टोलिक है, जो धमनियों में दबाव का जिक्र करता है जब आपका दिल धड़कनों के बीच होता है।</string>
+
+
+    <!---Topic 3- Find your blood pressure type-->
+    <string name="topic_3">अपने रक्तचाप के प्रकार का पता लगाएं</string>
+
+    <string name="main_11">उच्च रक्तचाप</string>
+
+    <string name="main_12">अल्प रक्त-चाप</string>
+
+
+    <!---Topic 4- Break blood pressure misbeliefs-->
+    <string name="topic_4">रक्तचाप की गलतफहमी तोड़ें</string>
+
+    <string name="paragraph_13">आपने रक्तचाप के बारे में सभी प्रकार के मिथक सुने होंगे। इन मिथकों पर विश्वास करना वास्तव में आपके रक्तचाप को नियंत्रित करना व्यर्थ कर सकता है या आपकी स्थिति को और भी खराब कर सकता है। रक्तचाप से संबंधित 7 सामान्य गलतफहमियां नीचे दी गई हैं। निम्नलिखित की जाँच करें और उन पर विश्वास करना बंद करें।</string>
+
+    <string name="main_14">1. अगर मुझे लो ब्लड प्रेशर है तो चिंता की कोई बात नहीं है</string>
+    <string name="paragraph_14">सामान्यतया, यदि आपको हाइपोटेंशन है, तो जीवनशैली में कुछ छोटे बदलाव समस्या का समाधान कर सकते हैं। हालांकि, यदि आप 20 एमएमएचजी से अधिक की अचानक गिरावट का अनुभव करते हैं या बेहोशी, थकान, धुंधली दृष्टि आदि महसूस करते हैं, तो आपको पेशेवर उपचार की आवश्यकता है। यदि तुरंत इलाज नहीं किया जाता है, तो हाइपोटेंशन जीवन के लिए खतरा हो सकता है।</string>
+
+    <string name="paragraph_17">मिथक यह है कि रेड वाइन के अंदर रेस्वेराट्रोल हृदय स्वास्थ्य को बनाए रख सकता है। हालाँकि, कोई भी अध्ययन उस कथन को साबित नहीं कर सकता है। यदि रेस्वेराट्रोल वास्तव में आपके हृदय स्वास्थ्य की रक्षा कर सकता है, तो आपको प्रभाव प्राप्त करने के लिए अत्यधिक मात्रा में रेड वाइन पीने की आवश्यकता है, जो आपके शरीर को बुरी तरह से नुकसान पहुंचा सकती है। इसके अलावा, शराब हृदय प्रणाली के लिए कोई लाभकारी साबित नहीं हुई है।</string>
+
+    <string name="main_18">5. अगर मेरा रक्तचाप नियंत्रण में है तो मैं दवाएं लेना बंद कर सकता हूं</string>
+
+
+    <!---Topic 5- Hypertension Types You Must know-->
+
+    <string name="main_22">प्राथमिक उच्च रक्तचाप</string>
+
+    <string name="main_23">माध्यमिक उच्च रक्तचाप</string>
+
+
+    <!---Topic 6- Notice symptoms-->
+
+    <string name="main_25">2. चक्कर आना</string>
+
+    <string name="main_27">4. सांस की तकलीफ</string>
+
+    <string name="main_28">5. सीने में दर्द</string>
+
+    <!---Topic 7- Know problems hypertension brings-->
+
+    <string name="main_33">3. हाइपरटेंशन से हो सकती है किडनी की समस्या</string>
+
+
+    <!---Topic 8- Understand hypotension-->
+
+    <!---Topic 9- First-line Drugs For Hypertension-->
+
+
+    <!---Topic 10- Control BP With A Healthy Lifestyle-->
+
+    <string name="main_55">4. तनाव का प्रबंधन करें</string>
+
+
+    <!---Topic 11- Lower Blood Pressure by Exercises-->
+
+
+    <!---Topic 12- How to Diagnose Hypotension?-->
+
+
+    <!---Topic 13- First-line Drugs for Hypotension-->
+
+    <string name="sub_71">साइड इफेक्ट्स में शामिल हैं:</string>
+
+    <string name="main_73">2. पाइरिडोस्टिग्माइन</string>
+
+    <string name="sub_74">दुष्प्रभाव हैं:</string>
+
+    <string name="main_76">3. मिलोड्रिना</string>
+
+    <string name="sub_77">साइड इफेक्ट कवर:</string>
+
+    <string name="sub_78">किसे नहीं लेना चाहिए?</string>
+
+
+    <!---Topic 14- First Aid Tips for Hypertensive Crisis-->
+
+
+    <!---Topic 15- First Aid Tips for Hypotensive Crisis-->
+
+    <string name="main_88">4. संपीड़न स्टॉकिंग्स पहनें</string>
+
+    <!---XML-->
+    <string name="add_record">रिकॉर्ड जोड़ें</string>
+    <string name="see_all_records">सभी रिकॉर्ड देखें</string>
+    <string name="tracker">ट्रैकर</string>
+    <string name="latest">नवीनतम</string>
+    <string name="hypertension">उच्च रक्तचाप</string>
+    <string name="systolic_mmhg">सिस्टोलिक (mmHg)</string>
+    <string name="diastolic_mmhg">डायस्टोलिक (mmHg)</string>
+    <string name="learn_bp">रक्तचाप के बारे में जानें</string>
+    <string name="info">जानकारी</string>
+    <string name="bpm">BPM</string>
+    <string name="mmhg">mmHg</string>
+    <string name="pulse">धड़कन</string>
+    <string name="systolic">सिस्टोलिक</string>
+    <string name="diastolic">डायस्टोलिक</string>
+    <string name="new_record">नया रिकॉर्ड</string>
+    <string name="delete">मिटाना</string>
+    <string name="date_and_time">तिथि और समय</string>
+    <string name="save">बचाना</string>
+
+    <string name="faq">सामान्य प्रश्न</string>
+
+    <string name="knowledge">ज्ञान</string>
+
+    <string name="language">भाषा</string>
+
+    <string name="privacy_policy">गोपनीयता नीति</string>
+
+    <string name="history">इतिहास</string>
+
+    <string name="delete_this_record">यह रिकॉर्ड हटाएं?</string>
+    <string name="cancel">रद्द करना</string>
+
+    <string name="settings">समायोजन</string>
+    <string name="language_options">भाषा विकल्प</string>
+    <string name="export_as_file">फ़ाइल के रूप में निर्यात करें</string>
+    <string name="rate_us">हमें रेटिंग दें</string>
+    <string name="share">शेयर करना</string>
+    <string name="feedback">प्रतिपुष्टि</string>
+    <string name="version">संस्करण</string>
+
+    <string name="my_blood_pressure">My Blood Pressure</string>
+
+    <string name="blood_pressure">Blood Pressure</string>
+    <string name="err">Err</string>
+    <string name="feb">फ़रवरी</string>
+    <string name="hypotension_feedback">आपका रक्तचाप थोड़ा कम लगता है..यदि स्थिति बनी रहती है, तो अपने चिकित्सक से परामर्श करने में संकोच न करें।</string>
+    <string name="normal_feedback">निश्चित होना! आपका रक्तचाप बहुत अच्छी स्थिति में है, इसे बनाए रखने का प्रयास करें!</string>
+    <string name="answer_12">उच्च रक्तचाप एक गंभीर चिकित्सा स्थिति है जिससे हृदय रोग, स्ट्रोक और यहां तक कि मृत्यु भी हो सकती है। यदि आप निम्न में से किसी भी लक्षण और लक्षण का अनुभव करते हैं, तो डॉक्टर को देखना महत्वपूर्ण है: सीने में दर्द, सांस की तकलीफ, तेजी से दिल की धड़कन, पसीना, मतली या उल्टी। यदि उच्च रक्तचाप का इलाज नहीं किया जाता है, तो इससे दिल का दौरा, स्ट्रोक और यहां तक कि मृत्यु भी हो सकती है। उच्च रक्तचाप को एक आपातकालीन स्थिति माना जाता है यदि यह निम्न में से किसी एक का कारण बनता है: सीने में दर्द जो दूर नहीं होता है, सांस लेने में कठिनाई, बेहोशी या कालापन होता है।</string>
+    <string name="answer_13">कुछ प्रमाण हैं कि उच्च रक्तचाप से सिरदर्द हो सकता है। उच्च रक्तचाप वाले कुछ लोगों को निम्न रक्तचाप वाले लोगों की तुलना में अधिक बार और गंभीर सिरदर्द का अनुभव हो सकता है। उच्च रक्तचाप अन्य स्थितियों के जोखिम को भी बढ़ा सकता है जो सिरदर्द का कारण बन सकते हैं, जैसे स्ट्रोक, हृदय रोग और मनोभ्रंश।</string>
+    <string name="answer_14">उच्च रक्तचाप का वर्तमान में कोई इलाज नहीं है, लेकिन इसे कम करने के कई तरीके हैं। उपचार में आमतौर पर जीवनशैली में बदलाव (जैसे वजन कम करना), दवा (जैसे एंजियोटेंसिन परिवर्तित एंजाइम अवरोधक या एंजियोटेंसिन रिसेप्टर ब्लॉकर्स), और सर्जरी (जैसे हृदय वाल्व प्रतिस्थापन) शामिल हैं। कुछ लोग अकेले आहार और व्यायाम से अपना रक्तचाप कम कर सकते हैं। यदि आपको उच्च रक्तचाप है, तो आपका डॉक्टर यह देखने के लिए रक्त परीक्षण करना चाहेगा कि क्या आपकी स्थिति है और यदि आपको उपचार की आवश्यकता है।</string>
+    <string name="answer_15">सबसे महत्वपूर्ण रक्तचाप संख्या सिस्टोलिक दबाव है, जो रक्तचाप पढ़ने में शीर्ष संख्या है। इसका कारण यह है कि उच्च सिस्टोलिक दबाव हृदय की मांसपेशियों की अधिक गतिविधि को इंगित करता है और हृदय की समस्याओं के लिए अधिक जोखिम का संकेत देता है।</string>
+    <string name="answer_16">धूम्रपान को उच्च रक्तचाप के बढ़ते जोखिम से जोड़ा गया है। वास्तव में, उच्च रक्तचाप के विकास के लिए धूम्रपान सबसे महत्वपूर्ण जोखिम कारकों में से एक है। धूम्रपान से शरीर में अधिक सूजन पैदा होती है, जिससे रक्तचाप में वृद्धि हो सकती है। इसके अतिरिक्त, धूम्रपान हृदय रोग, स्ट्रोक और अन्य हृदय संबंधी समस्याओं के जोखिम को बढ़ा सकता है। यदि आप अपने रक्तचाप के बारे में चिंतित हैं, तो धूम्रपान छोड़ना और जीवनशैली में बदलाव करना महत्वपूर्ण है जो आपके रक्तचाप को कम करने में मदद कर सकता है।</string>
+    <string name="answer_17">रक्तचाप की दवा दो तरह से काम करती है: आपकी नसों से बहने वाले रक्त की मात्रा को कम करके और आपके हृदय को पंप करने वाले रक्त की मात्रा को कम करके। रक्तचाप की दवा को अपना पूरा असर करने में कई सप्ताह तक का समय लग सकता है।</string>
+    <string name="answer_18">उच्च रक्तचाप आपको ऐसा महसूस करा सकता है कि आपको दिल का दौरा पड़ रहा है, और इससे अन्य स्वास्थ्य समस्याएं भी हो सकती हैं। उच्च रक्तचाप के कारण आपको सांस लेने में मुश्किल हो सकती है, और इससे स्ट्रोक, दिल की विफलता और गुर्दे की विफलता भी हो सकती है। यदि आपको उच्च रक्तचाप है, तो आपको इसे नियंत्रण में लाने के लिए जल्द से जल्द डॉक्टर को दिखाना चाहिए।</string>
+    <string name="answer_19">कुछ सबूत हैं कि चिंता उच्च रक्तचाप के लिए एक योगदान कारक हो सकती है, क्योंकि चिंता हृदय गति और कोर्टिसोल के स्तर को बढ़ा सकती है, दोनों रक्तचाप बढ़ा सकते हैं। इसके अतिरिक्त, उच्च रक्तचाप वाले लोगों में चिंता विकार होने की संभावना अधिक होती है।</string>
+    <string name="answer_11">इस प्रश्न का कोई एक आकार-फिट-सभी उत्तर नहीं है, क्योंकि निम्न रक्तचाप के लिए सबसे अच्छा व्यायाम आपके व्यक्तिगत स्वास्थ्य और फिटनेस स्तर के आधार पर अलग-अलग होगा। हालांकि, रक्तचाप को कम करने के लिए कुछ सामान्य सिफारिशों में शामिल हैं:  —चलना या टहलना: ये गतिविधियाँ अपेक्षाकृत कम प्रभाव वाली होती हैं और आपके समग्र फिटनेस स्तर को बेहतर बनाने में मदद कर सकती हैं। -शक्ति प्रशिक्षण: यह आपकी समग्र शक्ति और हृदय स्वास्थ्य को बेहतर बनाने में मदद कर सकता है, जो बदले में आपके रक्तचाप को कम करने में मदद कर सकता है। -योग: यह व्यायाम का एक रूप है जिसे अक्सर उन लोगों के लिए अनुशंसित किया जाता है जो व्यायाम के अधिक कोमल रूप की तलाश में हैं।</string>
+    <string name="main_4">3.उन्नत</string>
+    <string name="paragraph_3">यदि आपकी रीडिंग 90/60 mmHg से अधिक और 120/80 mmHg से कम है, तो आपका रक्तचाप सामान्य है। उच्च रक्तचाप को विकसित होने से रोकने के लिए आपको स्वस्थ जीवन शैली को बनाए रखने या अपनाने की आवश्यकता है।  इसके अलावा, यदि आपके परिवार के किसी सदस्य को उच्च रक्तचाप है, तो यह अनुशंसा की जाती है कि आप अपनी जीवनशैली के प्रति और भी सचेत रहें क्योंकि उच्च रक्तचाप के विकास का आपका जोखिम अधिक हो सकता है।</string>
+    <string name="paragraph_4">जब आपका रक्तचाप सामान्य से अधिक होता है, लेकिन 130/80 mmHg तक नहीं पहुंचता है, तो आपका रक्तचाप ऊंचा माना जाता है। यदि आपकी जीवनशैली और खाने की आदतों में सुधार नहीं किया जाता है, तो आपको उच्च रक्तचाप होने की बहुत संभावना है।</string>
+    <string name="paragraph_5">130 से 139 mmHg के बीच लगातार सिस्टोलिक प्रेशर रीडिंग या 80 से 89 mmHg के बीच डायस्टोलिक प्रेशर रीडिंग का मतलब है कि आप हाइपरटेंशन स्टेज 1 पर हैं।  सामान्यतया, आपको रक्तचाप को नियंत्रित करने के लिए केवल अपनी जीवन शैली में सुधार करने की आवश्यकता है। हालांकि, यदि आपको हृदय रोग (हृदय रोग, स्ट्रोक, आदि) का उच्च जोखिम है, तो आपको तदनुसार दवा लेना शुरू करने की आवश्यकता है।</string>
+    <string name="main_6">5. उच्च रक्तचाप चरण 2</string>
+    <string name="paragraph_6">उच्च रक्तचाप चरण 2 तब होता है जब आपके पास 140 से 180 mmHg के बीच लगातार सिस्टोलिक दबाव रीडिंग या 90 से 120 mmHg के बीच डायस्टोलिक दबाव रीडिंग होती है।  इस स्तर पर, आपको जीवनशैली में बदलाव और एक या अधिक दवाओं को मिलाना चाहिए। उपचार और जीवनशैली में सुधार के पहले महीने के बाद, यदि आपका रक्तचाप नियंत्रण में है, तो आप 3 से 6 महीने में एक और माप के लिए अस्पताल जा सकते हैं। यदि रक्तचाप अधिक है या नहीं बदलता है, तो आपको अन्य उपचारों में बदलने के लिए डॉक्टर से परामर्श करने की आवश्यकता है।</string>
+    <string name="paragraph_7">यदि आप घर पर अपना रक्तचाप माप रहे हैं और अपने सिस्टोलिक रीडिंग को 180 mmHg या डायस्टोलिक संख्या 120 mmHg से ऊपर देखते हैं, तो आपको पहले शांत होने की आवश्यकता है, फिर इसे फिर से जांचने के लिए कुछ मिनट प्रतीक्षा करें। यदि आप अभी भी उच्च रक्तचाप के संकट की सीमा में हैं, तो आपातकालीन सेवा को कॉल करने या अभी अस्पताल जाने में संकोच न करें।</string>
+    <string name="paragraph_8">चाहे आप अपने रक्तचाप को घर पर या अस्पताल में मापें, आप हैरान होंगे कि रक्तचाप का क्या मतलब है या डिवाइस स्क्रीन पर संख्याओं के दो स्तंभों से। इस लेख को पढ़ने के बाद चिंता न करें। सभी का जवाब दिया जाएगा।</string>
+    <string name="paragraph_9">दिल एक पानी के पंप की तरह है, जो लगातार पूरे शरीर में रक्त वाहिकाओं को रक्त पंप करता है। जब रक्त चलता है, तो यह रक्त वाहिकाओं की दीवारों के खिलाफ धक्का देता है। पेशाब करने की शक्ति अर्थात् रक्तचाप है।</string>
+    <string name="main_10">बीपी डिवाइस पर दो नंबर क्या होते हैं</string>
+    <string name="paragraph_11">मानव हृदय प्रणाली एक जल संचार प्रणाली की तरह लगती है, जिसमें रक्त पानी की तरह लगातार घूमता रहता है और ऑक्सीजन और पोषण को अंगों और रक्त वाहिकाओं तक पहुंचाता है।  जब रक्त वाहिकाएं अपनी लोच खो देती हैं तो रक्त प्रवाह मुश्किल हो जाता है। उस समय आपका शरीर रक्त प्रवाह करने के लिए धक्का देने की शक्ति को बढ़ाने की कोशिश करता है, जिससे उच्च रक्तचाप होता है।</string>
+    <string name="paragraph_12">यदि आपका रक्तचाप लगातार 90/60 mmHg कम करता है या अचानक 20 mmHg से अधिक गिर जाता है, तो आपको अपने रक्तचाप पर नज़र रखनी चाहिए। बिना किसी लक्षण के हाइपोटेंशन को आमतौर पर उपचार की आवश्यकता नहीं होती है। फिर भी, यदि लक्षण या अचानक गिरावट उभरती है तो सटीक निदान और वर्गीकृत उपचार की आवश्यकता होती है।</string>
+    <string name="main_15">2. यदि कोई लक्षण सामने नहीं आता है तो मुझे उच्च रक्तचाप नहीं है</string>
+    <string name="paragraph_15">क्या आप जानते हैं कि हाइपरटेंशन को साइलेंट किलर कहा जाता है? यह अक्सर चुप रहता है और इसमें कोई लक्षण नहीं हो सकता है, या लक्षण हल्के हो सकते हैं, जिन्हें गंभीरता से नहीं लिया जाएगा जबकि यह आपके स्वास्थ्य को बहुत नुकसान पहुंचा रहा है।  जब लक्षण प्रकट होते हैं, तो यह इंगित करता है कि हृदय, मस्तिष्क, गुर्दे, रक्त वाहिका या अन्य अंग गंभीर रूप से क्षतिग्रस्त हो गए हैं और सामान्य कार्य नहीं कर सकते हैं। उस समय, इष्टतम उपचार का अवसर चूक गया है। इस बीच, जटिलताएं विकसित हो रही हैं और जीवन खतरे में है।</string>
+    <string name="main_16">3. उच्च रक्तचाप को ठीक किया जा सकता है</string>
+    <string name="paragraph_16">केवल माध्यमिक उच्च रक्तचाप को ठीक किया जा सकता है क्योंकि इसका स्पष्ट कारण है। जब माध्यमिक स्थिति ठीक हो जाती है, माध्यमिक उच्च रक्तचाप अब और नहीं रहेगा।  प्राथमिक उच्च रक्तचाप को अभी तक ठीक नहीं किया जा सकता है, लेकिन दवाओं के माध्यम से या जीवन शैली में सुधार करके रक्तचाप को सामान्य से नियंत्रित करके शरीर को होने वाले नुकसान को रोका या कम किया जा सकता है। यह दावा कि उच्च रक्तचाप को सरल तरीकों से ठीक किया जा सकता है और कभी भी दोबारा नहीं होता है, भ्रामक है।</string>
+    <string name="main_17">4. रेड वाइन पीने से रक्तचाप नियंत्रण में लाभ होता है</string>
+    <string name="paragraph_18">यह पूरी तरह से गलत है और भ्रामक हो सकता है। प्राथमिक उच्च रक्तचाप को कभी भी ठीक नहीं किया जा सकता है और अधिकांश रोगियों को जीवन भर दवा लेने की आवश्यकता होती है। आपका रक्तचाप नियंत्रण में है, यह दवा नियंत्रण का परिणाम है, न कि उच्च रक्तचाप ठीक हो गया है। एक बार जब दवा बंद कर दी जाती है, तो रक्तचाप फिर से शुरू होने की संभावना है। इसके अलावा, कुछ दवाओं को छोड़ने से गंभीर वापसी प्रतिक्रियाएं हो सकती हैं।  इसलिए यदि आपका रक्तचाप लंबे समय से स्थिर है, तो भी बिना उचित मार्गदर्शन के आपकी दवा में बदलाव या बंद नहीं होना चाहिए। दवा में कोई भी बदलाव करने से पहले डॉक्टर से सलाह लें। आपको अपने डॉक्टर के मार्गदर्शन में दवा की मात्रा कम करनी चाहिए, नियमित रूप से रक्तचाप की निगरानी करनी चाहिए और एक स्वस्थ जीवन शैली बनाए रखनी चाहिए।</string>
+    <string name="main_19">6. युवाओं को नहीं होगा उच्च रक्तचाप</string>
+    <string name="paragraph_19">हालांकि उच्च रक्तचाप के रोगी मध्यम आयु वर्ग और बुजुर्ग लोगों में आम हैं, लेकिन युवा भी इससे पीड़ित हो सकते हैं। रक्तचाप का स्तर उम्र, शरीर के आकार, यौन विकास के स्तर, जीवनशैली आदि से प्रभावित होता है।</string>
+    <string name="main_20">7. केवल पुरुष ही उच्च रक्तचाप विकसित कर सकते हैं</string>
+    <string name="paragraph_20">पुरुषों और महिलाओं के बीच जोखिम का अंतर वास्तव में उम्र पर निर्भर करता है। 45 वर्ष की आयु से पहले, पुरुषों को महिलाओं की तुलना में उच्च रक्तचाप का अधिक खतरा होता है। 45 से 64 वर्ष की आयु के बीच, उन्हें लगभग समान जोखिम होता है। गौरतलब है कि 64 साल की उम्र के बाद महिलाओं में हाई ब्लड प्रेशर होने का खतरा पुरुषों के मुकाबले ज्यादा होता है।</string>
+    <string name="topic_5">उच्च रक्तचाप के प्रकार जो आपको अवश्य जानना चाहिए</string>
+    <string name="paragraph_21">क्या आप जानते हैं कि हाई ब्लड प्रेशर दो तरह का होता है? एक प्राइमरी और दूसरा सेकेंडरी हाई ब्लड प्रेशर। उनके अलग-अलग कारण हैं और आइए उनके बारे में और जानने के लिए पढ़ें।</string>
+    <string name="paragraph_22">सबसे आम उच्च रक्तचाप प्राथमिक प्रकार है। इसका मतलब है लगातार उच्च रक्तचाप का किसी अन्य चिकित्सा स्थिति से कोई संबंध नहीं है। उच्च रक्तचाप पर वर्षों के शोध के बावजूद, एक विशिष्ट कारण ज्ञात नहीं है। अस्वास्थ्यकर आहार, शारीरिक निष्क्रियता, तंबाकू और शराब का सेवन, रात भर रहना या मोटा होना आदि। आपके रक्तचाप को बढ़ा सकता है।  उम्र बढ़ने के साथ मरीजों का रक्तचाप भी बढ़ेगा। इलाज की विधि अब तक न तो खोजी गई है और न ही खोजी जा सकी है। इसलिए, अधिकांश रोगियों को जीवन भर रक्तचाप को नियंत्रित करने के लिए दवा लेने की आवश्यकता होती है।</string>
+    <string name="paragraph_23">केवल 5 से 10 प्रतिशत उच्च रक्तचाप ही द्वितीयक प्रकार का होता है। इसके अलावा, यह साबित हो गया है कि कम उम्र के लोगों में माध्यमिक उच्च रक्तचाप होने की संभावना होती है।  माध्यमिक उच्च रक्तचाप कुछ दवाओं जैसे जन्म नियंत्रण की गोलियाँ, आदि, या विभिन्न स्थितियों जैसे ऑब्सट्रक्टिव स्लीप एपनिया, गुर्दे की बीमारी, अधिवृक्क ग्रंथि ट्यूमर, थायरॉयड की समस्याएं, रक्त वाहिकाओं के दोष आदि के कारण होता है। जब रोगी दवा लेना बंद कर देते हैं या माध्यमिक का इलाज करते हैं स्थिति, माध्यमिक उच्च रक्तचाप बेहतर हो जाएगा।</string>
+    <string name="topic_6">उच्च रक्तचाप के लक्षणों पर ध्यान दें</string>
+    <string name="main_24">1. सिरदर्द</string>
+    <string name="paragraph_24">उच्च रक्तचाप के कारण सिरदर्द आमतौर पर एक आपात स्थिति का संकेत देता है। जब रक्तचाप बहुत अधिक होता है, तो यह आपके मस्तिष्क की रक्त वाहिकाओं को नुकसान पहुंचा सकता है, जिससे इंट्राकैनायल दबाव में वृद्धि हो सकती है। आपके सिर के दोनों ओर धड़कते हुए सिरदर्द होंगे और कोई भी गतिविधि सिरदर्द को बदतर बना देगी।</string>
+    <string name="paragraph_25">हालांकि चक्कर आना एंटीहाइपरटेन्सिव दवा लेने का एक साइड इफेक्ट हो सकता है, आपको इसे हल्के में नहीं लेना चाहिए। गंभीर उच्च रक्तचाप स्ट्रोक का एक प्रमुख कारण है। अचानक चक्कर आना, संतुलन खोना या अस्थिर चलना ये सभी स्ट्रोक के संकेत हो सकते हैं।</string>
+    <string name="main_26">3. जी मिचलाना</string>
+    <string name="paragraph_26">यदि आप उच्च रक्तचाप वाले व्यक्ति हैं और अचानक मतली और भूख न लगने का अनुभव करते हैं, तो आप उच्च रक्तचाप से ग्रस्त संकट का सामना कर सकते हैं। अत्यधिक उच्च रक्तचाप के कारण होने वाली मतली आमतौर पर चक्कर आने के साथ होती है।</string>
+    <string name="paragraph_27">उच्च रक्तचाप हृदय और फेफड़ों के कार्य को प्रभावित करेगा, जिससे सांस लेने में तकलीफ होगी। जब रोगी व्यायाम करते हैं, तो यह अधिक ध्यान देने योग्य हो सकता है।</string>
+    <string name="paragraph_28">उच्च रक्तचाप दिल के दौरे और दिल की विफलता के लिए एक प्रमुख जोखिम कारक है। उच्च रक्तचाप धमनियों को सख्त कर देता है, जिससे रक्त प्रवाह और ऑक्सीजन की डिलीवरी मुश्किल हो जाती है। इसका मतलब है कि हृदय तक कम रक्त पहुंच रहा है और अंततः सीने में दर्द हो रहा है, जिसे एनजाइना भी कहा जाता है।</string>
+    <string name="main_29">6. धुंधली दृष्टि</string>
+    <string name="paragraph_29">आपके नेत्रगोलक पर कई छोटे बर्तन होते हैं। जब आपका रक्तचाप खतरनाक स्तर तक बढ़ जाता है, तो इन वाहिकाओं से रक्तस्राव हो सकता है, जो धुंधली दृष्टि या यहां तक कि दृष्टि की हानि का कारण बनता है।</string>
+    <string name="main_89">7. नाक से खून बहना</string>
+    <string name="paragraph_89">उच्च रक्तचाप आमतौर पर नाक से खून बहने का कारण नहीं बनता है जब तक कि आपका रक्तचाप बहुत अधिक न हो। रक्तस्राव का मतलब है कि आपकी नाक के अंदर के बर्तन क्षतिग्रस्त हो गए हैं। इस बिंदु पर, आपको एम्बुलेंस को कॉल करने या तुरंत अस्पताल जाने की आवश्यकता है।</string>
+    <string name="topic_7">समस्याओं को जानें उच्च रक्तचाप लाता है</string>
+    <string name="paragraph_30">उच्च रक्तचाप आपके स्वास्थ्य के लिए एक बड़ा खतरा है। यह बिना किसी लक्षण के आपके दिल, दिमाग, किडनी और आंखों को लगातार नुकसान पहुंचा सकता है। यदि आप अपने शरीर पर उच्च रक्तचाप के प्रभावों को जानना चाहते हैं, तो स्पष्ट दृष्टिकोण प्राप्त करने के लिए नीचे पढ़ें।</string>
+    <string name="main_31">1. उच्च रक्तचाप से होती है दिल की बीमारियां</string>
+    <string name="paragraph_31">उच्च रक्तचाप से कोरोनरी हृदय रोग, हृदय गति रुकना आदि हो सकता है। कुछ अध्ययनों से पता चलता है कि लगभग एक चौथाई हृदय गति रुकने के मामले उच्च रक्तचाप के कारण होते हैं। उच्च रक्तचाप धमनियों को कम लचीला बना देगा और वसायुक्त पदार्थ रक्त वाहिकाओं को अवरुद्ध कर देगा, जो इंगित करता है कि हृदय में रक्त का सुचारू प्रवाह असंभव हो जाता है। उस समय, हृदय को बाएं वेंट्रिकल को अधिक मेहनत करने और विभिन्न अंगों में रक्त पंप करने की आवश्यकता होती है।  आखिरकार, अतिरिक्त कार्यभार के कारण बाएं वेंट्रिकल का विस्तार होगा, जिससे हृदय रोगों के विकास का खतरा बहुत बढ़ जाता है। दूसरी ओर, हृदय कमजोर हो जाता है और रक्त पंप करने में सक्षम नहीं होता है, जिससे हृदय गति रुक जाती है।</string>
+    <string name="main_32">2. हाइपरटेंशन आपके दिमाग को नुकसान पहुंचा सकता है</string>
+    <string name="paragraph_32">उच्च रक्तचाप क्षणिक इस्केमिक अटैक, स्ट्रोक, मनोभ्रंश, हल्के संज्ञानात्मक हानि और अन्य मस्तिष्क रोगों का कारण बन सकता है।  रक्तचाप बढ़ाता है धमनियों को अवरुद्ध करेगा और मस्तिष्क तक पहुंचने वाले रक्त को सीमित कर देगा। रक्त की आपूर्ति में कमी होने पर मस्तिष्क कार्य नहीं कर सकता, जिससे क्षणिक इस्केमिक अटैक (TIA) हो जाता है।  अत्यधिक रक्तचाप के कारण मस्तिष्क की रक्त वाहिकाएं अपना लचीलापन खो देती हैं। यह घटना पोषक तत्वों और ऑक्सीजन को मस्तिष्क तक पहुँचाना असंभव बना देती है, जिससे मस्तिष्क की कोशिकाएँ मर जाती हैं और स्ट्रोक होता है। आपका रक्तचाप जितना अधिक होगा, स्ट्रोक विकसित होने की संभावना उतनी ही अधिक होगी। अध्ययनों से पता चला है कि उच्च रक्तचाप पुरुषों में स्ट्रोक के खतरे को 220% तक बढ़ा सकता है।  टीआईए और स्ट्रोक को छोड़कर, उच्च रक्तचाप के परिणामस्वरूप आपके संज्ञानात्मक क्षेत्र के संवहनी काठिन्य भी हो सकते हैं। इसका मतलब है कि रोगी संज्ञानात्मक हानि से प्रभावित हो सकते हैं और धीरे-धीरे मनोभ्रंश में विकसित हो सकते हैं।</string>
+    <string name="paragraph_33">किडनी और ब्लड प्रेशर का आपस में गहरा संबंध है। रक्त चयापचय अपशिष्ट को गुर्दे के माध्यम से ले जाता है। एक स्वस्थ गुर्दा हर मिनट लगभग आधा कप रक्त को फिल्टर करता है, अतिरिक्त पानी और चयापचय अपशिष्ट को मूत्र के रूप में बाहर निकालता है।  इसलिए, जब रक्तचाप अधिक होता है, तो अत्यधिक दबाव का विरोध करने के लिए रक्त वाहिकाओं की दीवारें मोटी हो जाती हैं।</string>
+    <string name="main_34">4. उच्च रक्तचाप आंखों की रोशनी को प्रभावित करता है</string>
+    <string name="paragraph_34">अत्यधिक उच्च रक्तचाप से रेटिना में सूजन आ जाएगी। मरीजों को धुंधली दृष्टि या यहां तक कि दृष्टि की हानि का अनुभव होगा।  रेटिना आंख के पीछे होता है और छवि पर ध्यान केंद्रित करने का कार्य करता है। जब रक्तचाप बहुत अधिक होता है, तो रेटिना की रक्त वाहिका की दीवारें मोटी हो जाती हैं और रक्तचाप को रेटिना की रक्त वाहिकाओं को नुकसान पहुंचा सकता है, रेटिना के कार्य को सीमित कर सकता है और ऑप्टिक तंत्रिका पर दबाव डाल सकता है, जिससे दृष्टि संबंधी समस्याएं हो सकती हैं।</string>
+    <string name="topic_8">हाइपोटेंशन को समझें: लक्षण और प्रकार</string>
+    <string name="main_35">हाइपोटेंशन के लक्षणों को समझना</string>
+    <string name="paragraph_35">हाइपोटेंशन के लक्षणों में शामिल हैं: -धुंधली दृष्टि -चक्कर आना या बेहोशी - ध्यान केंद्रित करने में असमर्थता -जी मिचलाना -तेजी से साँस लेने -थकान</string>
+    <string name="main_36">हाइपोटेंशन के प्रकारों को समझना</string>
+    <string name="paragraph_36">यदि आप इन लक्षणों को प्राप्त करते रहते हैं और इसके कारण के बारे में सोचते हैं, तो आप अपना रक्तचाप माप सकते हैं और यह देखने के लिए नीचे जांच कर सकते हैं कि आप इस प्रकार के हाइपोटेंशन से संबंधित हैं या नहीं।</string>
+    <string name="sub_37">1. ऑर्थोस्टेटिक हाइपोटेंशन</string>
+    <string name="sub_38">2. पोस्टप्रैन्डियल हाइपोटेंशन</string>
+    <string name="paragraph_38">पोस्टप्रांडियल हाइपोटेंशन को अक्सर वृद्धावस्था की स्थिति माना जाता है, क्योंकि यह आमतौर पर तब प्रकट होता है जब बड़े वयस्क अपना भोजन समाप्त कर लेते हैं, और लगभग किसी भी युवा को यह नहीं होगा।  जब भोजन के बाद आंतों में रक्त प्रवाहित होता है, तो दिल तेजी से धड़कता है, जबकि शरीर के अन्य हिस्सों में रक्त वाहिकाओं रक्तचाप को बनाए रखने के लिए संकुचित हो जाते हैं। हालाँकि, कुछ वृद्ध लोगों के शरीर सामान्य रूप से कार्य नहीं कर सकते हैं। जब रक्त आंतों में प्रवाहित होता है, तो हृदय गति को पर्याप्त रूप से नहीं बढ़ाया जा सकता है, और वाहिकासंकीर्णन रक्तचाप को बनाए रखने के लिए पर्याप्त नहीं है, जिससे रक्तचाप में गिरावट आई है।</string>
+    <string name="sub_39">3. तंत्रिका मध्यस्थता हाइपोटेंशन</string>
+    <string name="paragraph_39">इस प्रकार का निम्न रक्तचाप तब होता है जब हृदय और मस्तिष्क में संचार की कमी होती है। लंबे समय तक खड़े रहने वाले या बहुत भावुक होने वाले लोगों में न्यूरल मीडिएटेड हाइपोटेंशन हो सकता है। उस समय, मस्तिष्क को रक्त पहुंचाने के लिए हृदय को रक्त को तेजी से पंप करने की आवश्यकता होती है। हालांकि, मस्तिष्क संदेश देता है कि हृदय गति को कम किया जाना चाहिए, जिससे निचले शरीर और बाहों की रक्त वाहिकाओं का फैलाव होता है, जिससे मस्तिष्क को पर्याप्त रक्त नहीं मिल पाता है।</string>
+    <string name="main_40">लगातार हाइपोटेंशन के अन्य कारण</string>
+    <string name="paragraph_40">-गर्भावस्था, हार्मोनल परिवर्तन रक्त वाहिकाओं और संचार प्रणाली को प्रभावित करते हैं जिससे गर्भावस्था के पहले 24 हफ्तों के दौरान रक्तचाप कम हो सकता है। - अतालता (असामान्य दिल की धड़कन) -दिल की बीमारी -उच्च रक्तचाप की दवाओं के साथ संयोजन में उपयोग की जाने वाली कुछ ओवर-द-काउंटर दवाएं -एंडोक्राइन विकार जैसे मधुमेह, अधिवृक्क अपर्याप्तता और थायरॉयड रोग</string>
+    <string name="main_41">रक्तचाप में अचानक गिरावट के कारण</string>
+    <string name="paragraph_41">-खून बहने से खून की कमी - कम शरीर का तापमान -उच्च शरीर का तापमान -हृदय की मांसपेशियों की बीमारी के कारण हृदय गति रुक जाती है -सेप्सिस, एक गंभीर रक्त संक्रमण - उल्टी, दस्त या बुखार से गंभीर निर्जलीकरण -दवा या शराब की प्रतिक्रिया -एक गंभीर एलर्जी प्रतिक्रिया</string>
+    <string name="topic_9">उच्च रक्तचाप के लिए पहली पंक्ति की दवाएं</string>
+    <string name="paragraph_42">यदि आपको उच्च रक्तचाप का निदान किया गया है और आपको चिकित्सा उपचार की आवश्यकता है, तो आपको आश्चर्य हो सकता है कि आपके शरीर की देखभाल के लिए कौन सा उपचार विकल्प उपयोगी और उपयुक्त है। यहां हम चार दवाएं पेश करते हैं जिन्हें आपका डॉक्टर आपके लिए सबसे पहले मानता है। थेरेपी को बेहतर ढंग से समझने और कष्टप्रद उच्च रक्तचाप को बेहतर ढंग से नियंत्रित करने के लिए आप जांच सकते हैं कि आप क्या ले रहे हैं।</string>
+    <string name="main_43">1. एंजियोटेंसिन-परिवर्तित एंजाइम (एसीई)</string>
+    <string name="paragraph_43">इस तरह की दवा रक्त वाहिकाओं को आराम देने और रक्तचाप को नियंत्रित करने के लिए कुछ हार्मोन की क्रियाओं को अवरुद्ध करने में महत्वपूर्ण भूमिका निभाती है। इस बीच, जो उल्लेख करने की आवश्यकता है वह यह है कि यह गुर्दे को रक्त की आपूर्ति को कम कुशल बना देगा।</string>
+    <string name="sub_44">ऐस किसे नहीं लेना चाहिए?</string>
+    <string name="paragraph_44">-प्रेग्नेंट औरत -गुर्दे की बीमारी वाले लोग -गंभीर एलर्जी प्रतिक्रिया वाले लोग</string>
+    <string name="main_45">2. मूत्रवर्धक</string>
+    <string name="paragraph_45">एक अन्य सामान्य प्रकार की उच्च रक्तचाप की दवा मूत्रवर्धक है, जो रक्तचाप को नियंत्रित करने के लिए अतिरिक्त सोडियम (नमक) और पानी के निर्वहन के लिए पेशाब की सुविधा प्रदान करती है। यह अक्सर उच्च रक्तचाप के इलाज में अन्य दवाओं के साथ प्रयोग किया जाता है।</string>
+    <string name="sub_46">मूत्रवर्धक किसे नहीं लेना चाहिए?</string>
+    <string name="paragraph_46">-बड़े लोग -गर्भवती और स्तनपान कराने वाली महिलाएं -बच्चे</string>
+    <string name="main_47">3. एंजियोटेंसिन II रिसेप्टर ब्लॉकर्स (ARBs)</string>
+    <string name="paragraph_47">यह समझाने के लिए कि एआरबी आपके रक्तचाप को कैसे कम करता है, हमें एंजियोटेंसिन का उल्लेख करना होगा। रिसेप्टर जगह में बांधने पर यह रक्त वाहिकाओं को संकुचित कर सकता है। एआरबी रक्त वाहिकाओं पर इसके बंधन को रोकते हैं, इसलिए, वाहिकाओं को खुला रखते हैं और रक्तचाप को कम करते हैं।</string>
+    <string name="sub_48">एआरबी किसे नहीं लेना चाहिए?</string>
+    <string name="paragraph_48">-गुर्दे की कुछ समस्याओं वाले लोग -जिन लोगों के रक्त में सोडियम का स्तर कम होता है -गर्भवती और स्तनपान कराने वाली महिलाएं और गंभीर एलर्जी वाले लोग</string>
+    <string name="main_49">4. कैल्शियम चैनल ब्लॉकर्स</string>
+    <string name="paragraph_49">आपको आश्चर्य हो सकता है कि रक्तचाप नियंत्रण कैल्शियम से कैसे संबंधित हो सकता है। हालांकि, कैल्शियम हृदय और धमनियों की मांसपेशियों की कोशिकाओं में प्रवाहित हो सकता है, जिससे मांसपेशियां मजबूत और सख्त हो जाती हैं। कैल्शियम चैनल ब्लॉकर्स आपके रक्त वाहिकाओं में कैल्शियम को अवरुद्ध करके काम करते हैं, जो आपके रक्तचाप को कम करने के लिए मांसपेशियों के संकुचन को आराम देता है।</string>
+    <string name="sub_50">कैल्शियम चैनल ब्लॉकर्स किसे नहीं लेना चाहिए?</string>
+    <string name="paragraph_50">-दिल की समस्या वाले लोग -गर्भवती और स्तनपान कराने वाली महिलाएं और गंभीर एलर्जी वाले लोग</string>
+    <string name="topic_10">स्वस्थ जीवन शैली के साथ बीपी को नियंत्रित करें</string>
+    <string name="paragraph_51">\'साइलेंट किलर\' के खिलाफ लड़ना आजीवन प्रतिबद्धता है। केवल दवाओं पर निर्भर न रहें और अपने दिल को बचाने के लिए कुछ बदलाव करें। इस लेख में हृदय-स्वस्थ जीवन शैली का पालन करके, आप अपने नंबरों को वापस देख सकते हैं जहां उन्हें होना चाहिए। आइए अब अपने रक्तचाप को कम करने और दैनिक जीवन को बेहतर बनाने के लिए एक कदम उठाएं।</string>
+    <string name="main_52">1. स्वस्थ वजन रखें</string>
+    <string name="paragraph_52">वजन और रक्तचाप एक दूसरे के साथ निकटता से जुड़े हुए हैं। जैसे-जैसे वजन बढ़ता है, वैसे-वैसे रक्तचाप भी बढ़ता जाता है। अत्यधिक वजन कम करने से रक्त वाहिकाओं का विस्तार हो सकता है जिससे वें हृदय पंप रक्त बेहतर हो सके। अनुसंधान ने साबित किया है कि वजन कम करने से सिस्टोलिक संख्या 4.5 से 8.5 mmHg और डायस्टोलिक संख्या 3.2 से 6.5 mmHg तक कम हो सकती है।  इसका मतलब यह नहीं है कि आपको बहुत अधिक वजन कम करने के लिए बहुत प्रयास करने की आवश्यकता है क्योंकि आपके शरीर के वजन का केवल 5% कम करने से रक्तचाप कम करने में फर्क पड़ेगा।  इस बीच, आपको अपनी कमर को देखने के लिए बहुत महत्व देना होगा। आपके मध्य भाग के आसपास बहुत अधिक मात्रा आपके रक्तचाप को प्रभावित कर सकती है। यह सुझाव दिया जाता है कि पुरुष कमर की माप 40 इंच से कम रखें और महिलाएं 35 इंच से अधिक न हों।</string>
+    <string name="main_53">2. डैश डाइट लें</string>
+    <string name="paragraph_53">उच्च रक्तचाप को रोकने के लिए आहार दृष्टिकोण (डीएएसएच) आहार उच्च रक्तचाप को रोकने और उसका इलाज करने और कोलेस्ट्रॉल में सुधार करने के लिए बनाया गया है। इसके अलावा, यह वजन घटाने, जोखिम में कमी को रद्द करने आदि में भी मदद करता है। नियमित डीएएसएच आहार कार्यक्रम प्रति दिन 1 चम्मच (2,300 मिलीग्राम) से अधिक सोडियम को प्रोत्साहित करता है। लिया गया सोडियम कम करने के साथ-साथ पोटेशियम, मैग्नीशियम और कैल्शियम की मात्रा बढ़ाकर, DASH आहार आपके सिस्टोलिक रक्तचाप को 11mmHg तक कम कर सकता है।  जब आप कोई भोजन खरीदते हैं, तो सोडियम के अनुपात की जांच करने के लिए लेबल पढ़ना सीखें। यदि इसमें 20% से अधिक सोडियम है, तो इसे खरीदना बंद कर दें।  सामान्यतया, DASH आहार का पालन करना शामिल है: -फल, सब्जियां, साबुत अनाज और लीन मीट खाना -कम वसा वाले डेयरी उत्पाद लेना -संतृप्त और ट्रांस वसा वाले खाद्य पदार्थों को सीमित करना, जैसे प्रसंस्कृत खाद्य पदार्थ -शक्करयुक्त खाद्य पदार्थ और पेय पदार्थ कम करें</string>
+    <string name="main_54">3. नियमित रूप से व्यायाम करें</string>
+    <string name="paragraph_54">जब आप नियमित रूप से व्यायाम करते हैं, तो आपकी हृदय गति और श्वास आपके हृदय पंप को मजबूत बनाने के लिए बढ़ जाती है, जिससे आपका रक्तचाप कम हो जाता है।  यदि आपको उच्च रक्तचाप है, तो मध्यम तीव्रता वाले एरोबिक व्यायाम, शक्ति प्रशिक्षण और लचीलेपन वाले व्यायामों का प्रयास करें। प्रति सप्ताह 150 मिनट आपके रक्तचाप में कुछ दवाओं की तरह उपयोगी रूप से सुधार कर सकते हैं। आप अपनी दिनचर्या को मज़ेदार और स्वस्थ बनाने के लिए जॉगिंग, वॉकिंग, स्विमिंग, डंबल वर्कआउट, योगा या अपनी पसंद का कोई भी व्यायाम चुन सकते हैं।  लगातार बने रहना महत्वपूर्ण है क्योंकि यदि आप व्यायाम करना बंद कर देते हैं, तो आपका रक्तचाप फिर से बढ़ सकता है।</string>
+    <string name="paragraph_55">जब आप समय के साथ तनावपूर्ण स्थिति में होते हैं तो आपकी हृदय गति बढ़ जाती है और रक्त वाहिकाएं सिकुड़ जाती हैं। इस बीच, जब आप तनाव में होते हैं, तो आप शराब पीने या प्रसंस्कृत भोजन लेने जैसी आदतों में शामिल होने की अधिक संभावना रखते हैं जो आपके बीपी की संख्या को बढ़ा सकते हैं।  अपने तनाव को प्रबंधित करने के लिए यहां कुछ सुझाव दिए गए हैं: - देखें कि आप क्या हल कर सकते हैं। यदि कोई कार्य आपको परेशान करता है, तो एक योजना बनाना और उससे जल्द से जल्द निपटना आवश्यक है। -अपने आप को आराम करो। अपने आप को कुछ प्यार दिखाने और उन चीजों को करने का समय है जो आपको पसंद हैं। - शराब या धूम्रपान जैसी नकारात्मक आदतों से दूर रहने पर ध्यान दें।</string>
+    <string name="main_56">5. धूम्रपान छोड़ो</string>
+    <string name="paragraph_56">सिगरेट के धुएं के हर कश से रक्तचाप में तत्काल वृद्धि होती है और आपके हृदय की तीव्र प्रतिक्रिया होती है। यदि आप धूम्रपान करते रहते हैं, तो निकोटीन आपके पोत की दीवारों को नुकसान पहुंचाएगा और उच्च रक्तचाप का कारण बनने वाली धमनियों को अवरुद्ध करने वाले वसायुक्त पदार्थों को तेज करेगा। निकोटीन दवाओं के प्रभाव को भी नकारात्मक रूप से प्रभावित कर सकता है। इसके अलावा, सेकेंड हैंड धुएं के संपर्क में आने से भी यही प्रभाव पड़ेगा।  आपके परिवार के सदस्यों और आपके हृदय स्वास्थ्य के लिए, धूम्रपान छोड़ने का समय आ गया है।</string>
+    <string name="topic_11">व्यायाम द्वारा निम्न रक्तचाप</string>
+    <string name="paragraph_57">क्या आप उच्च रक्तचाप की प्राथमिक रोकथाम, उपचार और नियंत्रण के लिए नशीली दवाओं से मुक्त तरीकों की तलाश कर रहे हैं? तो आप सही जगह पर आए हैं। यह लेख रक्तचाप को कम करने में मदद करने के लिए शारीरिक व्यायाम का परिचय देगा। इन्हें अपनी दिनचर्या में शामिल करें, आप देख सकते हैं कि आप कितना बड़ा बदलाव लाने जा रहे हैं।</string>
+    <string name="main_58">1. एरोबिक व्यायाम</string>
+    <string name="paragraph_58">उच्च रक्तचाप को नियंत्रित करने के लिए एरोबिक गतिविधि एक प्रभावी तरीका हो सकता है। यह साबित हो गया है कि नियमित एरोबिक गतिविधि हृदय गति और श्वास में उल्लेखनीय वृद्धि में योगदान कर सकती है, जिससे रक्त वाहिका की कठोरता कम हो जाती है ताकि रक्त अधिक आसानी से प्रवाहित हो सके। औसतन, नियमित एरोबिक व्यायाम आराम करने वाले सिस्टोलिक रक्तचाप को 5 से 8 mmHg तक कम कर देता है।  कृपया ध्यान रखें कि व्यायाम को रोकने पर आप लाभ खो सकते हैं। प्रति सप्ताह 5 से 7 दिनों के लिए मध्यम-तीव्रता वाले व्यायाम की आवश्यकता है। इस बीच, उच्च रक्तचाप के रोगियों को प्रत्येक दिन कम से कम 30 मिनट या 60 मिनट तक एरोबिक कसरत करने की आवश्यकता होती है। यदि आप 30 मिनट की कसरत को अपने लिए चुनौतीपूर्ण मानते हैं, तो आप इसे 10 मिनट के मुकाबलों में विभाजित कर सकते हैं।</string>
+    <string name="sub_59">बड़े मांसपेशी समूहों का उपयोग करके एरोबिक गतिविधियों के उदाहरण</string>
+    <string name="paragraph_59">-चढ़ती सीढ़ियां -टहलना -धीमी दौड़ -साइकिल चलाना -तैराकी -नृत्य</string>
+    <string name="main_60">2. प्रतिरोध प्रशिक्षण</string>
+    <string name="paragraph_60">एरोबिक व्यायाम को छोड़कर, आप रक्त वाहिकाओं को चौड़ा करने के लिए एक पूरक के रूप में प्रतिरोध प्रशिक्षण भी जोड़ सकते हैं, दूसरे शब्दों में, सीधे रक्तचाप में सुधार करें और बिना किसी नुकसान के। इसे करने के लिए आमतौर पर वजन या उपकरण जैसे प्रतिरोध-प्रशिक्षण मशीनों की आवश्यकता होती है। इसे मध्यम तीव्रता के साथ सप्ताह में दो या तीन बार करने की सलाह दी जाती है। अलावा। एक ही मांसपेशी भाग का अभ्यास न करें या लगातार प्रतिरोध व्यायाम न करें। शरीर के अंग को बदलने से आपके रक्तचाप को कम करने में मदद मिलती है।</string>
+    <string name="sub_61">एहतियात</string>
+    <string name="paragraph_61">-पेशेवर मार्गदर्शन लें -कम दोहराव सबसे अच्छा है -प्रत्येक सेट के बीच 90 या अधिक सेकंड के लिए आराम करें -प्रतिरोध व्यायाम नियंत्रित गति से होना चाहिए लेकिन बहुत धीमा नहीं होना चाहिए -अपनी सांस को रोककर न रखें क्योंकि इससे आपका रक्तचाप बढ़ जाएगा</string>
+    <string name="sub_62">उपकरण के साथ प्रतिरोध प्रशिक्षण के उदाहरण</string>
+    <string name="paragraph_62">-छाती दबाओ -कंधे दबाना -ट्राइसेप्स एक्सटेंशन -बाइसेप्स के छल्ले -नीचे खींचना -लोअर-बैक एक्सटेंशन -क्वाड्रिसेप्स एक्सटेंशन -बछड़ा उठाना</string>
+    <string name="main_63">3. लचीलापन कसरत</string>
+    <string name="paragraph_63">सरल लचीलेपन वाले वर्कआउट या स्ट्रेच उच्च रक्तचाप से ग्रस्त लोगों के लिए लाभ प्रदान करते हैं। जब आप अपनी मांसपेशियों और जोड़ों को फैलाते हैं, तो आप वास्तव में रक्त वाहिकाओं और धमनियों को खींच रहे होते हैं और रक्त प्रवाह की कठोरता को कम करते हैं। स्ट्रेचिंग को अपने वर्कआउट रूटीन में शामिल करने का समय आ गया है।  अध्ययनों के अनुसार, इसे प्रति सप्ताह 2 से 5 दिन करने से रक्तचाप कम हो सकता है। इस बीच, लाभ सुनिश्चित करने के लिए प्रत्येक व्यायाम को 10 से 30 तक करना आवश्यक है।</string>
+    <string name="sub_64">लचीलेपन के उदाहरण</string>
+    <string name="paragraph_64">-योग  पिलेट्स</string>
+    <string name="topic_12">हाइपोटेंशन का निदान कैसे करें?</string>
+    <string name="paragraph_65">जब आपके पास क्रोनिक हाइपोटेंशन के लक्षण होते हैं, तो आप इस बारे में उत्सुक हो सकते हैं कि आप इस बारे में कैसे उत्सुक होंगे कि अस्पताल में आपका निदान और उपचार कैसे किया जाएगा। आइए देखें कि हाइपोटेंशन निदान के बारे में क्या जानना है।  आपके डॉक्टर को नीचे परीक्षण करने की आवश्यकता हो सकती है यदि उन्हें संदेह है कि आपको हाइपोटेंशन है:</string>
+    <string name="main_66">1. रक्त परीक्षण</string>
+    <string name="paragraph_66">आपकी संपूर्ण रक्त जानकारी को समझने का सबसे प्रभावी तरीका रक्त परीक्षण करना है। आपका ब्लड शुगर लेवल और रेड ब्लड सेल काउंट यह जांचने के लिए लिया जाएगा कि आपको हाइपोटेंशन है या नहीं।</string>
+    <string name="main_67">2. टिल्ट टेबल टेस्ट</string>
+    <string name="paragraph_67">संदिग्ध ऑर्थोस्टेटिक हाइपोटेंशन का परीक्षण करने का एक अन्य सामान्य तरीका टिल्ट टेबल टेस्ट है। आप परीक्षण से पहले कुछ मिनट के लिए लापरवाह रहते हुए आराम करेंगे। परीक्षण के दौरान, तालिका को कुछ समय के लिए धीरे-धीरे एक ईमानदार कोण पर ऊपर उठाया जाएगा। इस बीच, आपकी हृदय गति, रक्तचाप और लक्षणों को नियमित अंतराल पर मापा जाएगा।  आपको ऑर्थोस्टेटिक हाइपोटेंशन माना जाएगा यदि आपका सिस्टोलिक नंबर 20mmHg गिर जाता है या डायस्टोलिक एक बेसलाइन से 10mmHg नीचे गिर जाता है।  यदि परीक्षण के दौरान लक्षण होते हैं, तो रोगी को तुरंत लापरवाह स्थिति में लौटा दिया जाना चाहिए।</string>
+    <string name="main_68">3. इलेक्ट्रोकार्डियोग्राम</string>
+    <string name="paragraph_68">संभावित हृदय समस्याओं की जांच करने के लिए जो रक्तचाप में गिरावट का कारण बन सकती हैं, एक इलेक्ट्रोकार्डियोग्राम याद नहीं किया जा सकता है। यह एक दर्द रहित और गैर-आक्रामक परीक्षण है, जिसके दौरान हृदय के विद्युत संकेतों को प्राप्त करने के लिए आपकी छाती, हाथ और पैरों की त्वचा से नरम और चिपचिपे पैच (इलेक्ट्रोड) जुड़े होते हैं।  आपके हृदय की लय में कोई अनियमितता, आपके हृदय में संरचनात्मक समस्याएं, आपके हृदय की मांसपेशियों को रक्त और ऑक्सीजन की आपूर्ति में समस्या या अन्य हृदय संबंधी समस्याओं का परीक्षण के माध्यम से सटीक रूप से पता लगाया जाएगा।</string>
+    <string name="topic_13">हाइपोटेंशन के लिए पहली पंक्ति की दवाएं</string>
+    <string name="paragraph_69">यदि आपके लिए गए परीक्षण सकारात्मक परिणाम दिखाते हैं और आपके लक्षण हैं, तो आपको हाइपोटेंशन को ठीक करने के लिए चिकित्सा उपचार की आवश्यकता हो सकती है। तो निम्न रक्तचाप के उपचार क्या हैं?</string>
+    <string name="main_70">1. Fludrocortisone</string>
+    <string name="paragraph_70">Fludrocortisone एक दवा है जो अधिकांश प्रकार के निम्न रक्तचाप में मदद करती है। यह शरीर में नमक के स्तर को बढ़ाकर रक्तचाप को बढ़ाता है जिससे रक्त की मात्रा बढ़ जाती है।</string>
+    <string name="paragraph_71">-सिरदर्द -जी मिचलाना -चक्कर आना -इन्सोमनिया -सुपाइन उच्च रक्तचाप -कोंजेस्टिव दिल विफलता -संक्रमण का खतरा बढ़ जाता है</string>
+    <string name="sub_72">किसे नहीं लेना चाहिए?</string>
+    <string name="paragraph_72">- जिन लोगों को फेफड़े, लीवर, किडनी और दिल की समस्या है, उन्हें इसका सेवन करने से पहले अपने डॉक्टर से सलाह लेनी चाहिए।  -कैंसर, उच्च रक्तचाप, मधुमेह या किसी संक्रमण के जोखिम वाले लोगों को सावधानी बरतनी चाहिए।  -इसके अलावा, गर्भवती और स्तनपान कराने वाली महिलाओं के साथ-साथ गंभीर एलर्जी वाले लोगों को इसे लेने के बारे में डॉक्टर की सलाह लेनी चाहिए।</string>
+    <string name="paragraph_73">पाइरिडोस्टिग्माइन ओथोस्टेटिक हाइपोटेंशन रोगियों के लिए तंत्रिका कोशिका संचरण में सुधार करेगा और रक्तचाप को नियंत्रित करने वाले रिफ्लेक्स को ट्रिगर करेगा, विशेष रूप से उच्च लापरवाह रक्तचाप वाले रोगियों के लिए सहायक। वहीं, इसके साइड इफेक्ट मामूली और हल्के होते हैं।</string>
+    <string name="paragraph_74">-एब्स ऐंठन - पेशाब का बढ़ना</string>
+    <string name="sub_75">किसे नहीं लेना चाहिए?</string>
+    <string name="paragraph_75">- आंत या मूत्र मार्ग में रुकावट वाले लोग। -इसके अलावा, गर्भवती और स्तनपान कराने वाली महिलाओं के साथ-साथ गंभीर एलर्जी वाले लोगों को इसे लेने के बारे में डॉक्टर की सलाह लेनी चाहिए।</string>
+    <string name="paragraph_76">यह रक्त वाहिकाओं के रिसेप्टर्स को संकीर्ण करने के लिए सक्रिय करके आपके रक्तचाप को बढ़ाता है, मिडोड्रिन आपके आराम करने पर भी रक्तचाप को बढ़ा सकता है। इस प्रकार, इस दवा का उपयोग केवल तभी किया जाना चाहिए जब आपको गंभीर रूप से निम्न रक्तचाप हो जो आपके दैनिक जीवन को प्रभावित करता हो या अन्य उपचार काम नहीं करते हों।</string>
+    <string name="paragraph_77">- ठंड लगना -सुन्न होना -सिरदर्द -चक्कर आना -जी मिचलाना -थकान -पेशाब में कठिनाई - पेशाब का बढ़ना</string>
+    <string name="paragraph_78">- कुछ दवाओं के साथ संयोजन करते समय मिडोड्रिन गंभीर प्रतिक्रियाएं पैदा कर सकता है। इसलिए, अपने डॉक्टर को बताएं कि आप कौन सी दवाएं, विटामिन, पोषक तत्वों की खुराक और हर्बल उत्पाद ले रहे हैं या इसे लेने से पहले आप क्या लेते थे। -मधुमेह, दृष्टि समस्याओं या जिगर की बीमारी वाले लोग हाइपोटेंशन के इलाज के लिए मिडोड्राइन का उपयोग नहीं कर सकते। -जो लोग किसी भी तरह की सर्जरी कराने जा रहे हैं, उन्हें अपने डॉक्टर से सलाह लेनी चाहिए। -इसके अलावा, गर्भवती और स्तनपान कराने वाली महिलाओं के साथ-साथ गंभीर एलर्जी वाले लोगों को इसे लेने के बारे में डॉक्टर की सलाह लेनी चाहिए।</string>
+    <string name="topic_14">उच्च रक्तचाप से ग्रस्त संकट के लिए प्राथमिक चिकित्सा युक्तियाँ</string>
+    <string name="paragraph_79">ऐसे मामले हो सकते हैं जहां रक्तचाप अप्रत्याशित रूप से बढ़ जाता है (सिस्टोलिक रक्तचाप 180 तक पहुंच जाता है और/या डायस्टोलिक 120 मिमीएचजी तक पहुंच जाता है) और आपातकालीन देखभाल की आवश्यकता होती है। तत्काल चिकित्सा सेवा के लिए कॉल करने के बाद या एम्बुलेंस की प्रतीक्षा के दौरान प्राथमिक उपचार क्या हो सकता है? कोई चिंता नहीं, हमने आपके लिए सारी जानकारी तैयार कर ली है।</string>
+    <string name="main_80">1. अपने आप को शांत करें रक्तचाप कम करने में लाभ</string>
+    <string name="main_81">2. अपने रक्तचाप की दवा लें</string>
+    <string name="paragraph_80">एक बात सभी उच्च रक्तचाप के रोगियों को ध्यान में रखने की जरूरत है कि कम तनाव का मतलब निम्न रक्तचाप है। शोधकर्ताओं ने पाया है कि कुछ मिनटों के लिए पूरी तरह से आराम करने से सिस्टोलिक रक्तचाप 10 mmHg या उससे अधिक कम हो सकता है। इस प्रकार, यह उच्च रक्तचाप की तात्कालिकता के दौरान आपके रक्तचाप को कम करने का सबसे स्वाभाविक तरीका है। नीचे कुछ विश्राम युक्तियाँ दी गई हैं जिन्हें आप आज़मा सकते हैं: -अपना वर्तमान कार्य रोकें -गहरी सांसें लो -बैठ जाओ या फ्लैट लेट जाओ आराम की आवाज़ें सुनें -ध्यान</string>
+    <string name="paragraph_81">यदि आप उच्च रक्तचाप के रोगी हैं, तो आपके पास डॉक्टर द्वारा निर्धारित रक्तचाप की दवाएं होनी चाहिए। उच्च रक्तचाप के इलाज के लिए दवा मुख्य विकल्प है। इसलिए, यदि आप या आपके परिवार के सदस्य उच्च रक्तचाप से ग्रस्त आपात स्थिति का अनुभव करते हैं, तो जल्द से जल्द चिकित्सा उपचार लेना कभी न भूलें।</string>
+    <string name="main_82">3. एक कप गुड़हल की चाय की चुस्की लें</string>
+    <string name="paragraph_82">चौंकिए मत। आपके रक्तचाप पर प्रत्यक्ष और अप्रत्यक्ष दोनों तरह के सकारात्मक प्रभावों के कई अध्ययनों से इसमें सुधार हुआ है। कुछ चिकित्सा उपचारों के रूप में उपयोगी, हिबिस्कस में एंथोसायनिन और कुछ एंटीऑक्सिडेंट आपके रक्तचाप को कम कर सकते हैं। गुड़हल की चाय पीने से आपका सिस्टोलिक ब्लड प्रेशर नंबर 7 पॉइंट तक कम हो सकता है।  इस बीच, चाय की चुस्की लेने से भी आपका रक्तचाप परोक्ष रूप से कम तनाव से कम हो सकता है। सुखदायक चाय आपको शांत महसूस करने, क्रोध को नियंत्रित करने, आपके बीपी नंबर को कम करने में मदद करती है।</string>
+    <string name="main_83">4. डार्क चॉकलेट लें</string>
+    <string name="paragraph_83">थोड़ी मात्रा में डार्क चॉकलेट खाने से आपके रक्तचाप को कम करने में मदद मिल सकती है। इसमें कैटेचिन और प्रोसायनिडिन होते हैं, जो रक्त वाहिकाओं के फैलाव का कारण बन सकते हैं। शोध के अनुसार, डार्क चॉकलेट लेने के बाद सिस्टोलिक और डायस्टोलिक दोनों की संख्या 2 से 3 mmHg तक कम हो गई थी। हालांकि परिवर्तन मामूली हैं, सकारात्मक प्रभाव सच है।  इसके अलावा, डार्क चॉकलेट एंडोर्फिन की रिहाई में मदद करके आपके उच्च रक्तचाप को अप्रत्यक्ष रूप से सकारात्मक रूप से प्रभावित कर सकती है जो आपको शांत कर देगा। कुछ मामलों में स्टॉक करने का समय आ गया है।</string>
+    <string name="topic_15">हाइपोटेंशन संकट के लिए प्राथमिक चिकित्सा युक्तियाँ</string>
+    <string name="paragraph_84">जब आपका रक्तचाप बहुत कम होता है या तेजी से गिरता है, तो यह एक चिकित्सा आपात स्थिति हो सकती है। पहला कदम तत्काल चिकित्सा उपचार के लिए अपने चिकित्सक से संपर्क करना और अपनी दवाओं की सावधानीपूर्वक समीक्षा करना होना चाहिए। लेकिन आप और क्या कर सकते हैं? नीचे दिए गए टिप्स जानें और अब आप अनजान नहीं रहेंगे।</string>
+    <string name="main_85">1. लेट जाओ</string>
+    <string name="paragraph_85">जब आप किसी हाइपोटेंशन के लक्षणों का अनुभव कर रहे हों, तो सुरक्षित रूप से और तुरंत एक सपाट सतह पर बैठने या लेटने का प्रयास करें। खड़े रहने से आपका पोस्टुरल हाइपोटेंशन खराब हो सकता है। लेटने या बैठने से आपका रक्तचाप सामान्य हो जाता है।</string>
+    <string name="main_86">2. हाइड्रेटेड रहें</string>
+    <string name="paragraph_86">हाइपोटेंशन के सामान्य कारणों में से एक निर्जलीकरण है। इस प्रकार, अधिक तरल पदार्थ पिएं, पानी, नारियल पानी और स्पोर्ट्स ड्रिंक को ढककर, न केवल आपके निर्जलीकरण को कम कर सकता है, बल्कि आपके शरीर में तरल पदार्थ को बनाए रखने में भी मदद करता है। इसके अलावा, आप अपने रक्तचाप में सुधार करने या अपने ग्लूकोज स्तर को बहाल करने के लिए थोड़ी मात्रा में नमक या चीनी ले सकते हैं।</string>
+    <string name="main_87">3. पर्याप्त नमक लें</string>
+    <string name="paragraph_87">अधिक नमकीन खाद्य पदार्थ खाने की कोशिश करें या एक चुटकी नमक चाटें ताकि सोडियम आपके रक्तचाप को बढ़ा सके। आप स्पोर्ट्स ड्रिंक भी पी सकते हैं या ओरल रिहाइड्रेशन साल्ट (ओआरएस) ले सकते हैं जो आपको फिर से हाइड्रेट कर सकता है और आपके रक्तचाप को बेहतर बनाने के लिए नमक के साथ-साथ अन्य इलेक्ट्रोलाइट्स भी प्रदान कर सकता है।  हालाँकि, यदि आप मधुमेह के रोगी हैं तो ओआरएस न लें और सुनिश्चित करें कि आप बहुत अधिक नमक नहीं लेते हैं। इससे हाई ब्लड प्रेशर के साथ वॉटर रिटेंशन जैसी समस्याएं हो सकती हैं।</string>
+    <string name="paragraph_88">ऑर्थोस्टेटिक हाइपोटेंशन वाले लोगों में आमतौर पर पैरों में रक्त जमा होता है। कंप्रेशन स्टॉकिंग्स आपके पैरों पर दृष्टि दबाव डालकर आपके हृदय तक रक्त प्रवाह को संचालित करने का काम करते हैं, जो इंगित करता है कि जांघ-ऊंची या कमर-ऊंची संस्करण प्रभावी होगी।  कृपया ध्यान दें कि कुछ रोगी उन्हें पहनने के लिए उपयुक्त नहीं हैं। इस प्रकार, अपने चिकित्सक से परामर्श करना महत्वपूर्ण है।  अब आप जानते हैं कि आपको या किसी और को हाइपोटेंशन का अनुभव होने पर क्या करना चाहिए। हालाँकि, अपने आप को एक विशेषज्ञ के रूप में लेने की कोशिश न करें। याद रखें कि हमेशा अपने डॉक्टर से मिलें और कभी भी स्व-दवा न करें।</string>
+    <string name="paragraph_37">लेटने या बैठने की स्थिति से उठकर खड़े होने के कारण होने वाले हाइपोटेंशन को ऑर्थोस्टेटिक हाइपोटेंशन कहा जाता है। यह सामान्य है क्योंकि 65 वर्ष से अधिक उम्र के लगभग एक-पांचवें बुजुर्ग को यह होगा। इसके अलावा, बीटा-ब्लॉकर्स, एसीई इनहिबिटर, एंटी-डिप्रेसेंट और पार्किंसंस रोग के इलाज के लिए इस्तेमाल की जाने वाली दवाएं भी ऑर्थोस्टेटिक हाइपोटेंशन का कारण बन सकती हैं।</string>
+    <string name="average">औसत</string>
+    <string name="max">मैक्स</string>
+    <string name="min">मिनट</string>
+    <string name="twofour_hour_average">24 घंटे औसत</string>
+    <string name="pulse_bpm">पल्स (BPM)</string>
+    <string name="dias_greater">सिस्टोलिक संख्या डायस्टोलिक संख्या से अधिक होनी चाहिए</string>
+    <string name="unlock_stats">आँकड़ों को अनलॉक करने के लिए कम से कम 1 रिकॉर्ड जोड़ें</string>
+
+
+</resources>

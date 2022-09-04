@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/small5"
+        android:text="@string/my_blood_pressure"
+        android:textColor="@color/white"
+        android:textSize="@dimen/smallText4"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.03"
+        app:layout_constraintStart_toStartOf="@+id/bpCard"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/bpCard"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/medium6"
+        android:layout_marginHorizontal="@dimen/small3"
+        android:layout_marginVertical="@dimen/small3"
+        android:background="@drawable/background"
+        android:padding="@dimen/paddingLarge"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9">
+
+        <ImageView
+            android:id="@+id/pulseColor"
+            android:layout_width="@dimen/small7"
+            android:layout_height="@dimen/small7"
+            android:background="@drawable/pulse_white"
+            app:layout_constraintBottom_toBottomOf="@+id/pulse"
+            app:layout_constraintEnd_toStartOf="@+id/pulse"
+            app:layout_constraintHorizontal_bias="0.95"
+            app:layout_constraintStart_toStartOf="@+id/guideline7"
+            app:layout_constraintTop_toTopOf="@+id/pulse" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/pulse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pulse"
+            android:textColor="@color/white"
+            android:textSize="@dimen/smallText2"
+            android:textStyle=""
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="@+id/guideline7"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/bpCardFilterTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_10"
+            android:paddingHorizontal="@dimen/small4"
+            android:paddingVertical="@dimen/small2"
+            android:text=""
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/smallText3"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/guideline7"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/bpCardDiastolic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/white"
+            android:textSize="@dimen/mediumText4"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/guideline7"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.95" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/systolic"
+            android:textColor="@color/white"
+            android:textSize="@dimen/smallText3"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/guideline7"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.45" />
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/bpCardPulse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/white"
+            android:textSize="@dimen/smallText3"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="@+id/guideline7"
+            app:layout_constraintTop_toBottomOf="@+id/pulse"
+            app:layout_constraintVertical_bias="0.04000002" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/diastolic"
+            android:textColor="@color/white"
+            android:textSize="@dimen/smallText3"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/guideline7"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.45" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/mmHgText2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mmhg"
+            android:textColor="@color/white"
+            android:textSize="@dimen/smallText3"
+            app:layout_constraintBottom_toBottomOf="@+id/bpCardSystolic"
+            app:layout_constraintEnd_toStartOf="@+id/guideline7"
+            app:layout_constraintHorizontal_bias="0.05"
+            app:layout_constraintStart_toEndOf="@+id/bpCardSystolic"
+            app:layout_constraintTop_toTopOf="@+id/bpCardSystolic"
+            app:layout_constraintVertical_bias="0.85" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/bpCardSystolic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/mediumText4"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/guideline7"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.95" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/mmHgText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mmhg"
+            android:textColor="@color/white"
+            android:textSize="@dimen/smallText3"
+            app:layout_constraintBottom_toBottomOf="@+id/bpCardDiastolic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.05"
+            app:layout_constraintStart_toEndOf="@+id/bpCardDiastolic"
+            app:layout_constraintTop_toTopOf="@+id/bpCardDiastolic"
+            app:layout_constraintVertical_bias="0.85" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.5" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:fillViewport="true"
+        android:paddingTop="@dimen/paddingMedium"
+        android:scrollbars="none"
+        app:layout_constraintBottom_toTopOf="@+id/addRecordButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bpCard">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.github.mikephil.charting.charts.BarChart
+                android:id="@+id/recordBarChart"
+                style="@style/Theme.AppCompat.Light"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/large2.5"
+                android:background="@color/black"
+
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recordsRv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="@dimen/small2" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/seeAllRecordsBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/background_3"
+                android:elevation="@dimen/small3"
+                android:paddingVertical="@dimen/small6"
+                android:text="@string/see_all_records"
+                android:textAllCaps="false"
+                android:textColor="@color/white" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/small5"
+                android:layout_marginTop="@dimen/small8"
+                android:layout_marginBottom="@dimen/small4"
+                android:text="@string/info"
+                android:textColor="@color/white"
+                android:textSize="@dimen/smallText4"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/topic1Card"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="@dimen/small3"
+                    android:layout_weight="1"
+                    app:cardBackgroundColor="@color/black">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/background_4" />
+
+                    <ImageView
+                        android:layout_width="@dimen/medium3"
+                        android:layout_height="@dimen/medium3"
+                        android:layout_gravity="center|top"
+                        android:layout_marginTop="@dimen/marginSmall"
+                        android:src="@drawable/bp_range" />
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom|center"
+                        android:gravity="center"
+                        android:padding="@dimen/small9"
+                        android:text="@string/topic_1"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/smallText3"
+                        android:textStyle="bold" />
+
+                </com.google.android.material.card.MaterialCardView>
+
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/topic2Card"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/medium8"
+                    android:layout_margin="@dimen/small3"
+                    android:layout_weight="1"
+                    app:cardBackgroundColor="@color/black">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/background_5" />
+
+                    <ImageView
+                        android:layout_width="@dimen/medium3"
+                        android:layout_height="@dimen/medium3"
+                        android:layout_gravity="center|top"
+                        android:layout_marginTop="@dimen/marginSmall"
+                        android:src="@drawable/learn_bp" />
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom|center"
+                        android:gravity="center"
+                        android:padding="@dimen/small9"
+                        android:text="@string/topic_9"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/smallText3"
+                        android:textStyle="bold" />
+
+                </com.google.android.material.card.MaterialCardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/topic3Card"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/medium8"
+                    android:layout_margin="@dimen/small3"
+                    android:layout_weight="1"
+                    app:cardBackgroundColor="@color/black">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/background_6" />
+
+                    <ImageView
+                        android:layout_width="@dimen/medium3"
+                        android:layout_height="@dimen/medium3"
+                        android:layout_gravity="center|top"
+                        android:layout_marginTop="@dimen/marginSmall"
+                        android:src="@drawable/bp_type" />
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom|center"
+                        android:gravity="center"
+                        android:padding="@dimen/small9"
+                        android:text="@string/topic_3"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/smallText3"
+                        android:textStyle="bold" />
+
+                </com.google.android.material.card.MaterialCardView>
+
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/topic9Card"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/medium8"
+                    android:layout_margin="@dimen/small3"
+                    android:layout_weight="1"
+                    app:cardBackgroundColor="@color/black">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/background_7" />
+
+                    <ImageView
+                        android:layout_width="@dimen/medium3"
+                        android:layout_height="@dimen/medium3"
+                        android:layout_gravity="center|top"
+                        android:layout_marginTop="@dimen/marginSmall"
+                        android:src="@drawable/healthy_lifestyle" />
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom|center"
+                        android:gravity="center"
+                        android:padding="@dimen/small9"
+                        android:text="@string/topic_10"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/smallText3"
+                        android:textStyle="bold" />
+
+                </com.google.android.material.card.MaterialCardView>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/addRecordButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_3"
+        android:drawableStart="@drawable/add_white"
+        android:elevation="@dimen/small3"
+        android:paddingVertical="@dimen/small7"
+        android:paddingStart="@dimen/small6"
+        android:text="@string/add_record"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
