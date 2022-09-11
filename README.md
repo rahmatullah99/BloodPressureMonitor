@@ -2,9 +2,7 @@
 
 An app that lets you log, track and analyze your blood pressure with related informations.
 
-Technologies used - 
-
-***Screens***
+Technologies used - Android Studio, Room library, MVVM design pattern, Kotlin Coroutines, Viewmodel, View binding, etc.
 
 **Tracker**
 
