@@ -2,6 +2,8 @@
 
 An app that lets you log, track and analyze your blood pressure with related informations.
 
+Technologies used - 
+
 **Screens**
 
 Tracker
@@ -12,9 +14,13 @@ Tracker
 
 ![3](https://user-images.githubusercontent.com/99873564/189537546-eb97512e-34ba-4f83-8747-45dc5e3ccc69.jpeg)
 
-New Record
+Record
 
 ![4](https://user-images.githubusercontent.com/99873564/189537547-f85133ee-70db-40c6-83d1-a87f3750dab4.jpeg)
+
+Record History
+
+![9](https://user-images.githubusercontent.com/99873564/189537887-e7e16420-af5b-45c2-a5a6-14fc65f8a27f.jpeg)
 
 Info
 
@@ -27,3 +33,4 @@ Info
 ![7](https://user-images.githubusercontent.com/99873564/189537552-71fc3dd4-4a56-4b55-943c-44ba76dc8e4f.jpeg)
 
 ![8](https://user-images.githubusercontent.com/99873564/189537554-4cba9a1b-58f3-4f2f-a73a-11c1791f6f96.jpeg)
+
