@@ -1,6 +1,6 @@
 # BloodPressureMonitor
 
-An app that lets you log, track and analyze your blood pressure with related informations.
+An app that lets you log, track and analyze your blood pressure with related information.
 
 Technologies used - Android Studio, Room library, MVVM design pattern, Kotlin Coroutines, Viewmodel, View binding, etc.
 
